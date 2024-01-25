@@ -1,0 +1,132 @@
+{
+
+    "flex-layout.row#phone__home__section7--women": {
+        "title": "home section 7 shop women",
+        "children":[
+            "image#home__image__section7--women"
+        ],
+        "props":{
+            "blockClass": "home__image--section7--women"
+        }
+    },
+
+    "flex-layout.row#phone__home__section7-womenbutton": {
+        "title": "home section 7 shop women button",
+        "children":[
+            "link#button__image__section7--women"
+        ],
+
+        "props":{
+            "blockClass": "home__button--section7--women"
+        }
+    },
+
+    "flex-layout.row#phone__home__section7--men":{
+        "title": "home section 7 shop men",
+        "children":[
+            "image#home__image__section7--men"
+        ],
+
+        "props":{
+            "blockClass": "home__image--section7--men"
+        }
+    }, 
+
+    "flex-layout.row#phone__home__section7-menbutton":{
+        "title": "home section 7 shop men button",
+        "children":[
+            "link#button__image__section7--men"
+        ],
+
+        "props":{
+            "blockClass": "home__button--section7--men"
+        }
+    }, 
+
+    "flex-layout.row#phone__home__section7--accesories":{
+        "title": "home section 7 shop accesories",
+        "children":[
+            "image#home__image__section7--accesories"
+        ],
+
+        "props":{
+            "blockClass": "home__image--section7--accesories"
+        }
+    },
+
+    "flex-layout.row#phone__home__section7-accesoriesbutton":{
+        "title": "home section 7 shop accesories button",
+        "children":[
+            "link#button__image__section7--accesories"
+        ],
+
+        "props":{
+            "blockClass": "home__button--section7--accesories"
+        }
+    },
+
+    //CHILDREN BLOCKS STATEMENT SECTION 7
+
+        //WOMEN SECTION
+
+    "image#home__image__section7--women":{
+        "title": "image women",
+        "props":{
+            "blockClass":"home__image__section7--women",
+            "src": "https://images.ctfassets.net/wl6q2in9o7k3/40VyGZ3B2mgb2xObRqb5QF/c1317a357d2f443038cce6d72f20ea40/GY79807_SEO-AO-021_Shop-Womens-INTL_660x840.jpg?w=1920&q=90&fm=webp"
+        }
+    },
+
+
+    "link#button__image__section7--women":{
+        "props":{
+            "blockClass":"home__button--section7--women",
+            "href": "https://ca.gymshark.com/pages/shop-women",
+            "label": "SHOP WOMEN",
+            "displayMode":"button"
+          }
+    },
+
+          //MEN SECTION
+
+          "image#home__image__section7--men":{
+            "title": "image men",
+            "props":{
+                "blockClass":"home__image__section7--men",
+                "src": "https://images.ctfassets.net/wl6q2in9o7k3/4MioWMRmAyKJwWU54jsMqe/744266ed0f8051cb91db30d70154b248/GY79596_SC03_INTL_Web_Banner_Headless_Card_686x900.jpg?w=1920&q=90&fm=webp"
+            }
+        },
+    
+    
+        "link#button__image__section7--men":{
+            "props":{
+                "blockClass":"home__button--section7--men",
+                "href": "https://ca.gymshark.com/pages/shop-men",
+                "label": "SHOP MEN",
+                "displayMode":"button"
+              }
+        },
+
+
+          //ACCESORIES SECTION
+
+          "image#home__image__section7--accesories":{
+            "title": "image accesories",
+            "props":{
+                "blockClass":"home__image__section7--accesories",
+                "src": "https://images.ctfassets.net/wl6q2in9o7k3/3tvaR1AOZjrjLOaljn6G1Y/db3f829d3b8b3df3f235e4dcff5a071e/accessories_shop_accessories_card.jpg?w=1920&q=90&fm=webp"
+            }
+        },
+    
+    
+        "link#button__image__section7--accesories":{
+            "props":{
+                "blockClass":"home__button--section7--accesories",
+                "href": "https://ca.gymshark.com/pages/shop-accesories",
+                "label": "SHOP ACCESORIES",
+                "displayMode":"button"
+              }
+        }
+
+
+}

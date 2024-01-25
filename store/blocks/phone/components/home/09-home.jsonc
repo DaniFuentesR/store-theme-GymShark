@@ -1,0 +1,106 @@
+{
+    "flex-layout.row#home__section9--info":{
+        "title": "Info section 9 text",
+        "children":[
+            "rich-text#home__section9--firsttext",
+            "rich-text#home__section9--firsttitle",
+            "rich-text#home__section9--secondtext",
+            "rich-text#home__section9--secondtitle",
+            "rich-text#home__section9--thirdtext",
+            "rich-text#home__section9--thirdtitle",
+            "rich-text#home__section9--fourthtext"
+        ]
+    },
+
+    "flex-layout.row#home__section-9--link":{
+        "title": "link section 9 back to top",
+        "children":[
+            "link#home__section9--backtotop"
+        ],
+
+        "props":{
+            
+            "blockClass":"home__link--section--backtotop"
+        }
+
+    },
+
+
+    // BLOCKS STATEMENTS
+
+        //TITLES
+    
+        "rich-text#home__section9--firsttitle":{
+            "title": "first title section 9",
+            "props":{
+                "blockClass": "home__section9--titles",
+                "text": "Gym Clothes built in the weight room"
+            }
+        },
+
+        "rich-text#home__section9--secondtitle": {
+            "title": "second title section 9",
+            "props":{
+                "blockClass": "home__section9--titles",
+                "text": "Activewear & Athleisure"
+            }
+        },
+
+
+        "rich-text#home__section9--thirdtitle":{
+            "title": "third title section 9",
+            "props":{
+                "blockClass": "home__section9--titles",
+                "text": "More than your best gym clothing"
+            }
+        },
+
+        // PHARAGRAPHS
+
+        "rich-text#home__section9--firsttext":{
+            "title": "first pharagraph section 9",
+            "props":{
+                "blockClass": "home__section9--pharagraphs",
+                "text": "Gym Clothes designed to help you become your personal best. Because when it comes to performing at your max, there should be no obstacles – least of all your workout clothes. Functional and comfortable, we create workout clothing you'll sweat in. Since 2012, we've designed and created the workout clothes we want to wear, because training and its people are what we know best."
+            }
+        },
+        
+        "rich-text#home__section9--secondtext":{
+            "title": "second pharagraph section 9",
+            "props":{
+                "blockClass": "home__section9--pharagraphs",
+                "text": "Our legacy was built in the weight room. Gymshark was founded with a love for training and that passion continues into all our gym clothes today. You'll find the latest innovation in gym clothing and accessories to help you perform at your best and recover in styles. "
+            }
+        },
+
+        "rich-text#home__section9--thirdtext":{
+            "title": "third pharagraph section 9",
+            "props":{
+                "blockClass": "home__section9--pharagraphs",
+                "text": "We create the tools that help everyone become their personal best – no matter the sport. Our range of Activewear is designed to give you the support you need to perform at your best, whether that's on the track, on the gym floor or in the studio. "
+            }
+        },
+
+        "rich-text#home__section9--fourthtext":{
+            "title": "fourth pharagraph section 9",
+            "props":{
+                "blockClass": "home__section9--pharagraphs",
+                "text": "The Gymshark community is devoted to unlocking potential through conditioning and the things we do today to prepare for tomorrow. It's every setback, step-up and milestone along the way. Game-changing workout clothing, running clothes and loungewear essentials. It's not just in the designs, it's in the people who wear them."
+            }
+        },
+
+        //LINK BACK TO TOP
+
+        "link#home__section9--backtotop":{
+            "title": "link back to top",
+            "props":{
+                "blockClass":"home__link--section--backtotop",
+                "href": "/",
+                "label": "^   Back to top"
+            }
+        }
+
+        
+        
+
+}

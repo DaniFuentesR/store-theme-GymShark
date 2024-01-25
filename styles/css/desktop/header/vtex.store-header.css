@@ -1,0 +1,20 @@
+.headerRowContentContainer--header__top--desktop{
+    background-color: #ebebeb;
+    height: 40px;
+}
+
+
+.headerRowContainer--header__top--desktop{
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    font-family: "/assets/fonts/Roboto-Medium.ttf";
+    
+}
+
+.headerRowContainer--header__bottom--desktop{
+    padding: 0 40px 0 20px;
+}
+
+
+

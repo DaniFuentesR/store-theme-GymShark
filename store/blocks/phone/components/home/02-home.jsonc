@@ -1,0 +1,77 @@
+{
+    "flex-layout.row#home__section-2--info": {
+        "title": "Section two, info div",
+        "children": [
+            "rich-text#home__section2--info",
+            "link#home__viewall--sectiontwo"
+
+        ],
+
+        "props": {
+            "blockClass": "home__section2--info"
+
+        }
+    },
+    
+    
+    "flex-layout.row#phone__home__section-2": {
+        "title": "Section two, scroll products",
+        "children": [
+            "slider-layout#home__slider--products"
+        ]      
+    },
+
+   
+
+    // ---------------- Declaración de "rich-text#home__section2--info" --------------------
+            
+
+    "rich-text#home__section2--info": {
+        "title": "Info section two",
+
+        "props": {
+            "blockClass":"home__section2--richtext",
+            "text": "20% OFF* TRAINING ESSENTIALS"
+        }
+    },
+
+    "link#home__viewall--sectiontwo":{
+        "title": "link view all",
+        "props":{
+            "blockClass":"home__viewall--sectiontwo",
+            "href": "https://ca.gymshark.com/collections/training-essentials/womens?banner_id=hp-training-essentials-dual-cta1",
+            "label": "View All"
+        }
+    },
+
+
+    // ---------------- Declaración de "slider-layout#home__slider--products" --------------------
+
+    "slider-layout#home__slider--products": {
+       "props": { 
+        "itemsPerPage":{
+            "desktop": 2,
+            "tablet": 1,
+            "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "always",
+        "blockClass": "home__slider",
+        "autoplay":{
+            "timeout": 3500,
+            "stopOnHover": true
+        }
+    },
+        "children":[
+            "image#home__slider--one"
+        ]
+    },
+
+    "image#home__slider--one":{
+    "props":{
+        "src":"https://cdn.forbes.com.mx/2021/05/VTEX.jpg"
+    }
+}
+
+}

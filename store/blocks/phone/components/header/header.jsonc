@@ -1,0 +1,169 @@
+{
+    "header": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+
+    "header.full": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    
+    "header-layout.mobile": {
+        "children": [
+            "header-row#header__mobile"
+        ]
+    },
+
+    "header-row#header__mobile" :{
+        "children": [
+            "drawer#header__mobile--menu",
+            // "search-bar",
+            "header-spacer",
+            "login",
+            "minicart.v2",
+            "header-force-center"
+
+        ],
+
+        "props":{
+            "blockClass": "header__mobile",
+            "horozontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        }
+    },
+
+    "header-force-center":{
+        "children": [
+            "logo#header__logo--mobile"
+        ]
+    },
+
+
+    "drawer#header__mobile--menu": {
+       "children": [
+        "menu#header__menu--mobile"
+       ]
+    },
+
+    // "search-bar":{
+    //     "props": {
+    //        "hasIconLeft": true 
+    //     }
+    // },
+
+
+    "logo#header__logo--mobile":{
+        "title": "Logo__phone",
+        "props":{
+          "url": "https://cdn.gymshark.com/images/branding/gs-icon-black.svg",
+          "width": 40,
+          "href": "/"
+        }
+    },
+
+
+    "login":{
+        "props": {
+            
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true
+          }
+    },
+
+    "menu#header__menu--mobile":{
+        "children":[
+            "rich-text#header__menu--mobile",
+            "search-bar#header__menu--mobile",
+             "menu-item#category__women"
+            // "menu-item#category__men",
+            // "menu-item#category--accesories"
+        ],
+
+        "props":{
+            "orientation": "vertical"
+        }
+    },
+
+    "rich-text#header__menu--mobile": {
+        "props":{
+            "text": "SHOP"
+        }
+    },
+
+    "search-bar#header__menu--mobile": {
+        "props":{
+            "blockClass": "menu__header--searchbar",
+            "placeholder": "Search for a Product"
+            
+         }
+    },
+
+
+
+    "menu-item#category__women": {
+        
+       "props": {
+            "id": "category--women",
+            "type": "custom",
+            "itemProps":{
+                "id":"category--women",
+                "type": "external",
+                "tagTitle":"Womens Category",
+                "text": "WOMEN"
+            }
+       },
+
+       "blocks":["submenu.accordion#department__women"]
+    },
+
+    "submenu.accordion#department__women": {
+        "children": [
+            "menu#department__women"
+        ]
+    },
+
+    "menu#department__women":{
+        "children":[
+            "menu-item#category__womenssale"
+            // "menu-item#category__trending"
+            // "menu-item#category__products",
+            // "menu-item#category__collections",
+            // "menu-item#category__backtogym"
+        ]
+    },
+
+    "menu-item#category__womenssale":{
+        "props":{
+            "id": "category__womenssale",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "tagTitle": "Womens Sale Category",
+                "text": "WOMEN'S SALE"
+            }
+        }
+    }
+    
+
+
+    // "menu-item#category__accesories": {
+    //     "props": {
+            
+    //     }
+    // }
+
+
+}

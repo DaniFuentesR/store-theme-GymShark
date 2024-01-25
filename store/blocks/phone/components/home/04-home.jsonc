@@ -1,0 +1,71 @@
+ {
+    "flex-layout.row#phone__home__section-4" : {
+        "title": "Image section 4",
+        "children": [
+          "image#image__section-4"
+        ],
+        "props": {
+          "blockClass": "home__image--section4",
+          "fullWidth": true
+          
+        }
+      },
+    
+      "flex-layout.row#phone__home__section4-text":{
+        "title": "text inside image section 4",
+        "children": [
+          "rich-text#1-info__image4--home",
+          "rich-text#2-info__image4--home",
+          "link#image__button4--shopwomen",
+          "link#image__button4--shopmen"
+        ],
+        "props": {
+          "blockClass": "home__image4--text"
+        }
+      },
+    
+      "image#image__section-4": {
+        "title": "Main Home Image section 4",
+        "props": {
+          "blockClass": "home__mainimage4--phone",
+          "src":"https://images.ctfassets.net/wl6q2in9o7k3/5PPee43AqseRn0KUeq7620/a29a44fd054ee2fc3bc071442cb7007a/Headless_Mobile_-_D_NAM.jpg?w=1200&q=100&fm=webp"
+        }
+      },
+    
+      "rich-text#1-info__image4--home":{
+        "title": "main text image4 home",
+        "props":{
+          "blockClass":[
+            "home__image4--text"
+          ],
+          "text": "2024 GOALS LOADING"
+        }
+      },
+    
+      "rich-text#2-info__image4--home":{
+        "title": "secondary text image4 home",
+        "props":{
+          "blockClass":"home__image4--2text",
+          "text": "New PBs are coming and they look *good* in these new drops."
+        }
+      },
+    
+      "link#image__button4--shopwomen":{
+        "props":{
+          "blockClass":"home__image-4-shopwomen",
+          "href": "https://ca.gymshark.com/collections/training-essentials/womens?banner_id=hp-training-essentials-dual-cta1",
+          "label": "SHOP WOMEN",
+          "displayMode":"button"
+        }
+      },
+    
+      "link#image__button4--shopmen":{
+        "props":{
+          "blockClass":"home__image4--shopmen",
+          "href": "https://ca.gymshark.com/collections/training-essentials/mens?banner_id=hp-training-essentials-dual-cta2",
+          "label": "SHOP MEN",
+          "displayMode":"button"
+        }
+      }
+
+ }

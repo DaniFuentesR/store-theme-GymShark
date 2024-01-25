@@ -1,0 +1,54 @@
+.wrapper--header__section6{
+    display: inline-flex;
+    color: rgb(3, 3, 3);
+    font-family: helvetica;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.wrapper--home__image61--text{
+    color: white;
+    font-family: helvetica;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg,transparent 0,#bfbdbd 90.28%);
+    width: 400px;
+    padding-left: 10px;
+    
+}
+
+.wrapper--home__image61--2text{
+    color: white;
+    font-family: helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 24px;
+    background: linear-gradient(-180deg,transparent 0,#454545 90.28%);
+    width: 400px;
+    border-radius: 10px;
+    padding-right: 10px;
+
+}
+
+.wrapper--home__image62--text{
+    color: white;
+    font-family: helvetica;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    padding-left: 16px;
+}
+
+.wrapper--home__image62--2text{
+    color: white;
+    font-family: helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 24px;
+    padding-left: 16px;
+
+}

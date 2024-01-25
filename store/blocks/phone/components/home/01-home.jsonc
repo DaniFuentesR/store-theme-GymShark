@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#home__section-1": {
+  "flex-layout.row#phone__home__section-1": {
     "title": "Image section 1",
     "children": [
       "image#image__section-1"
@@ -11,7 +11,7 @@
     }
   },
 
-  "flex-layout.row#desktop__home__section1-text":{
+  "flex-layout.row#phone__home__section-text":{
     "title": "text inside image section 1",
     "children": [
       "rich-text#1-info__image--home",
@@ -28,7 +28,7 @@
     "title": "Main Home Image",
     "props": {
       "blockClass": "home__mainimage--phone",
-      "src":"https://images.ctfassets.net/wl6q2in9o7k3/1CiHFQ1OKay92cMp61I2Pp/d4e3ed7e5df3c2b0a879cb2e886bbc0e/Headless_Desktop_-_D_copy.jpg?w=2048&q=100&fm=webp"
+      "src":"https://images.ctfassets.net/wl6q2in9o7k3/1pea2C5xAj8kWrNTsIS8SA/3ae001c383d75524522df95d6a4ba0c4/Headless_Mobile_-__D_copy.jpg?w=1200&q=100&fm=webp"
     }
   },
 
@@ -67,5 +67,7 @@
       "displayMode":"button"
     }
   }
+  
+
 
 }

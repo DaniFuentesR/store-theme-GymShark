@@ -1,0 +1,16 @@
+.headerStickyRow--header__mobile{
+    background-color: #fff;
+    border-bottom: 0.1rem solid #e7e7e7;
+    
+}
+
+.headerRowContainer--header__mobile{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+.vtex-button__label{
+    padding: 0px; 
+}

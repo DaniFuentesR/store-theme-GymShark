@@ -1,0 +1,4 @@
+.imageElement--home__mainimage--phone{
+    height: 100vh;
+    object-fit:cover;
+}

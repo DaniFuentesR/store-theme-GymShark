@@ -1,6 +1,128 @@
 {
   "responsive-layout.phone#home__section-1": {
     "title": "Section 1 Phone Home",
-    "children": ["flex-layout.row#phone__home__section-1"]
+    "children": [
+      "flex-layout.row#phone__home__section-1",
+      "flex-layout.row#phone__home__section-text"
+    ]
+  },
+
+  "responsive-layout.phone#home__section-2": {
+    "title": "Section 3 Phone Home",
+    "children": [
+      "flex-layout.row#home__section-2--info",
+      "flex-layout.row#phone__home__section-2"
+    ]
+  },
+
+  "responsive-layout.phone#home__section-3": {
+    "title": "Section 3 Phone Home",
+    "children": [
+         "flex-layout.row#phone__home__section-3",
+         "flex-layout.row#phone__home__section3-text"
+    ]
+  },
+
+  "responsive-layout.phone#home__section-4": {
+    "title": "Section 4 Phone Home",
+    "children": [
+         "flex-layout.row#phone__home__section-4",
+         "flex-layout.row#phone__home__section4-text"
+    ]
+  },
+
+  "responsive-layout.phone#home__section-5": {
+    "title": "Section 5 Phone Home",
+    "children": [
+      "flex-layout.row#home__section-5--info",
+      "flex-layout.row#phone__home__section-5"
+    ]
+  },
+
+  "responsive-layout.phone#home__section-6": {
+    "title": "Section 6.1 phone home",
+    "children": [
+      "flex-layout.row#phone__home__section6--header-text",
+      "flex-layout.row#phone__home__section-6.1",
+      "flex-layout.row#phone__home__section6.1-text",
+      "flex-layout.row#phone__home__section6.1-button",
+      "flex-layout.row#phone__home__section-6.2",
+      "flex-layout.row#phone__home__section6.2-text",
+      "flex-layout.row#phone__home__section6.2-button"
+
+    ]
+  },
+
+  "responsive-layout.phone#home__section-7":{
+    "title": "Section 7 phone Home",
+    "children": [
+      "flex-layout.row#phone__home__section7--women",
+      "flex-layout.row#phone__home__section7-womenbutton",
+
+      "flex-layout.row#phone__home__section7--men",
+      "flex-layout.row#phone__home__section7-menbutton",
+
+      "flex-layout.row#phone__home__section7--accesories",
+      "flex-layout.row#phone__home__section7-accesoriesbutton"
+
+    ]
+  },
+
+  "responsive-layout.phone#home__section-8": {
+    "title": "Section 8 phone Home",
+    "children": [
+      "flex-layout.row#phone__home__section8--womenstrend",
+      "flex-layout.row#phone__home__section8--womenscollect",
+      
+      "flex-layout.row#phone__home__section8--menstrend",
+      "flex-layout.row#phone__home__section8--menscollect"
+
+    ]
+
+  },
+
+  "responsive-layout.phone#home__section-9": {
+    "title": "Section 9 home phone",
+    "children": [
+      "flex-layout.row#home__section9--info",
+      "flex-layout.row#home__section-9--link"
+    ]
   }
+
+
+
+
+
+
+ 
 }
+
+
+
+
+
+
+
+// {
+//   "responsive-layout.phone#home__section-1": {
+//     "title": "Section 1 Phone Home",
+//     "children": [
+//       "flex-layout.row#phone__home__section-1",
+//       "flex-layout.row#phone__home__section-text",
+//       "flex-layout.row#home__section-2--info",
+//       "flex-layout.row#phone__home__section-2",
+//       "flex-layout.row#phone__home__section-3",
+//       "flex-layout.row#phone__home__section3-text",
+//       "flex-layout.row#phone__home__section-4",
+//       "flex-layout.row#phone__home__section4-text",
+//       "flex-layout.row#home__section-5--info",
+//       "flex-layout.row#phone__home__section-5"
+
+
+
+      
+
+//     ]
+//   }
+// }
+

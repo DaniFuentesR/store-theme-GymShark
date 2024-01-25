@@ -1,0 +1,58 @@
+.link--header__top--login{
+    font-size: 14px;
+    text-decoration: none;
+    color: #53565a;
+    padding: 0 10px;
+    
+}
+
+.link--header__top--statement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #53565a;
+    border-left: 1px solid #bbbcbc;
+    padding: 0 10px 0 10px;
+    height: 100%;
+
+}
+
+.link--header__top--help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #53565a;
+    border-left: 1px solid #bbbcbc;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.link--header__top--signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #53565a;
+    border-left: 1px solid #bbbcbc;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.link--header__top--blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #53565a;
+    border-left: 1px solid #bbbcbc;
+    padding: 0 10px;
+    height: 100%;
+}
+
+

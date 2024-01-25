@@ -1,0 +1,197 @@
+{
+// SECTION 6
+
+        // HEADER TEXT
+    "flex-layout.row#phone__home__section6--header-text": {
+        "title": "header home section 6",
+        "children":[
+            "rich-text#header__section6"
+        ],
+
+        "props":{
+            "blockClass": "header__section6"
+        }
+
+    },
+// SECTION 6.1
+
+    // IMAGE TITLE
+  "flex-layout.row#phone__home__section-6.1":{
+        "title": "Image section 6.1",
+        "children": [
+            "image#home__image--section6.1"
+        ],
+
+        "props": {
+            "blockClass": "home__image-section61"
+            
+        }
+    },
+
+
+        //IMAGE TEXT
+
+    "flex-layout.row#phone__home__section6.1-text":{
+        "title": "text inside image section 6.1",
+        "children": [
+          "rich-text#1-info__image6.1--home",
+          "rich-text#2-info__image6.1--home"
+        ],
+        "props": {
+          "blockClass": "home__image61--text"
+        }
+    },
+
+        //IMAGE BUTTON
+
+        "flex-layout.row#phone__home__section6.1-button": {
+            "title": "home section 6.1 download app button",
+            "children":[
+                "link#button__image__section61--downloadapp"
+            ],
+    
+            "props":{
+                "blockClass": "home__button--section61--downloadapp"
+            }
+        },
+
+
+
+//SECTION 6.2
+
+        //IMAGE TITLE
+
+    "flex-layout.row#phone__home__section-6.2":{
+        "title": "Image section 6.2",
+        "children": [
+            "image#home__image--section6.2"
+        ],
+
+        "props": {
+            "blockClass": "home__image-section62"
+            
+        }
+    },
+
+        //IMAGE TEXT
+
+    "flex-layout.row#phone__home__section6.2-text":{
+        "title": "text inside image section 6.2",
+        "children": [
+          "rich-text#1-info__image6.2--home",
+          "rich-text#2-info__image6.2--home"
+        ],
+        "props": {
+          "blockClass": "home__image62--text"
+        }
+    },
+
+    // IMAGE BUTTON 
+
+      "flex-layout.row#phone__home__section6.2-button":{
+        "title": "home section 6.2 download app button",
+        "children":[
+            "link#button__image__section62--downloadapp"
+        ],
+
+        "props":{
+            "blockClass": "home__button--section62--downloadapp"
+        }
+      },
+        
+
+    // section 6 Blocks Statements
+
+        //header title
+
+    "rich-text#header__section6":{
+        "title": "title header section 6",
+        "props": {
+            "blockClass": "header__section6",
+            "text": "The Gymshark Apps"
+        }
+    },
+
+    //SECTION 6.1
+
+    "image#home__image--section6.1": {
+        "title": "Image section 6.1",
+
+        "props": {
+                "blockClass": "home__mainimage6--phone",
+                "src":"https://images.ctfassets.net/wl6q2in9o7k3/5NxdhMjvm7IsQBwhJjrS5w/cfd933a278337ecc6f9fce211c7d772d/E-Comm_App_900x690.jpg?w=1920&q=90&fm=webp"
+
+        }
+    },
+
+    "rich-text#1-info__image6.1--home": {
+        "title": "main text image6.1 home",
+        "props":{
+          "blockClass":[
+            "home__image61--text"
+          ],
+          "text": "The Gymshark App"
+        }
+    },
+
+    "rich-text#2-info__image6.1--home": {
+        "title": "secondary text image6.1 home",
+        "props":{
+          "blockClass":"home__image61--2text",
+          "text": "Shop your fave ’fits on the go and get exclusive drops, class bookings and more. The best of Gymshark anytime, anywhere."
+        }
+    },
+
+
+    "link#button__image__section61--downloadapp": {
+        "props":{
+            "blockClass":"home__image-61-downloadapp",
+            "href": "https://gymshark.onelink.me/R4DB/webHome1",
+            "label": "DOWNLOAD THE APP",
+            "displayMode":"button"
+          }
+    },
+
+    // SECTION 6.2
+
+
+    "image#home__image--section6.2": {
+        "title": "Image section 6.2",
+
+        "props": {
+            
+                "blockClass": "home__mainimage62--phone",
+                "src":"https://images.ctfassets.net/wl6q2in9o7k3/3q9DHwu8CSdOm0jZZUlpCp/c5710b98b02d0738844de3250d081aff/F_Training_App_900x690.jpg?w=1920&q=90&fm=webp"
+              
+        }
+    },
+
+    "rich-text#1-info__image6.2--home": {
+        "title": "main text image6.2 home",
+        "props":{
+          "blockClass":[
+            "home__image62--text"
+          ],
+          "text": "The Gymshark Training App"
+        }
+    },
+
+    "rich-text#2-info__image6.2--home": {
+        "title": "secondary text image62 home",
+        "props":{
+          "blockClass":"home__image62--2text",
+          "text": "From home workouts at your fingertips to an entire library of gym plans, train your way with the Gymshark Training App."
+        }
+    },
+
+
+    "link#button__image__section62--downloadapp": {
+        "props":{
+            "blockClass":"home__image-62-downloadapp",
+            "href": "https://gymshark.onelink.me/R4DB/webHome1",
+            "label": "DOWNLOAD THE APP",
+            "displayMode":"button"
+          }
+    }
+
+}

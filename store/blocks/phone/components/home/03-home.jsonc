@@ -1,0 +1,55 @@
+
+
+ {
+    "flex-layout.row#phone__home__section-3": {
+        "title": "Image section 3",
+        "children": [
+          "image#image__section-3"
+        ],
+        "props": {
+          "blockClass": "home__image--section3",
+          "fullWidth": true
+          
+        }
+      },
+    
+      "flex-layout.row#phone__home__section3-text":{
+        "title": "text inside image section 3",
+        "children": [
+          "rich-text#3-info__image--home",
+          "link#image3__button--info"
+        ],
+        "props": {
+          "blockClass": "home__image3--text"
+        }
+      },
+    
+
+      "image#image__section-3": {
+        "title": "Main Home Image section 3",
+        "props": {
+          "blockClass": "home__section3image--phone",
+          "src":"https://images.ctfassets.net/wl6q2in9o7k3/VPcZxRfQnRX0190KrnhKP/6cb035b0c4f5bfe64f251d2b2a5d1ca7/Mobile_Extended_Copy__1_.jpg?w=1200&q=100&fm=webp"
+        }
+      },
+
+
+      "rich-text#3-info__image--home":{
+        "title": "main text image home section 3",
+        "props":{
+          "blockClass":[
+            "home3__image--2text"
+          ],
+          "text": "They say it takes 66 days to create a habit. We believe it takes 66 days to change your life."
+        }
+      },
+
+      "link#image3__button--info":{
+        "props":{
+            "blockClass":"home__image3--shopwomen",
+            "href": "https://ca.gymshark.com/collections/training-essentials/womens?banner_id=hp-training-essentials-dual-cta1",
+            "label": "WHAT IS GYMSHARK66?",
+            "displayMode":"button"
+          }
+      }
+ }

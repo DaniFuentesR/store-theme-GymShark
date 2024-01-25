@@ -1,0 +1,25 @@
+.wrapper--header__department--woman{
+    padding: 15px 0;
+    margin: 0 25px;
+    font-family: "/assets/fonts/Montserrat-Black.ttf";
+    font-weight: bold;
+
+}
+
+.wrapper--header__department--men{
+    padding: 15px 0;
+    margin: 0 25px;
+    font-family: "/assets/fonts/Montserrat-Medium.ttf";
+    font-weight: bold;
+    
+
+    
+}
+
+.wrapper--header__department--accesories{
+    padding: 15px 0;
+    margin: 0 25px;
+    font-family: "/assets/fonts/Montserrat-ExtraBold.ttf";
+    font-weight: bold;
+
+}

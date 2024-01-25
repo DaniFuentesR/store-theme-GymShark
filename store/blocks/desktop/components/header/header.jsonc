@@ -1,0 +1,204 @@
+{
+    "header": {
+        "blocks": [
+            "header-layout.desktop"
+        ]
+    },
+
+    "header.full": {
+        "blocks": [
+            "header-layout.desktop"     
+        ]
+    },
+    
+    "header-layout.desktop": {
+        "children": [
+            "header-row#header__top--desktop",
+            "header-row#header__bottom--desktop"
+        ]
+    },
+
+    "header-row#header__top--desktop": {
+        "children": [
+            "link#header__top--login",
+            "link#header__top--statement",
+            "link#header__top--help",
+            "link#header__top--signup",
+            "link#header__top--blog"
+            // "country-selector"
+
+        ],
+
+        "props":{
+            "blockClass": "header__top--desktop",
+            "horizontalAlign": "left",
+            "verticalAlign": "center"
+
+        }
+    },
+
+    "link#header__top--login": {
+        "props":{
+            "blockClass":"header__top--login",
+            "href":"/account",
+            "label":"Account"
+          }
+    },
+
+    "link#header__top--statement":{
+        "props":{
+            "blockClass":"header__top--statement",
+            "href":"https://ca.gymshark.com/pages/commitment-to-accessibility",
+            "label": "Accesibility Statement"
+        }
+    },
+
+    "link#header__top--help":{
+        "props":{
+            "blockClass":"header__top--help",
+            "href": "https://support.gymshark.com/en-US",
+            "label": "Help"
+        }
+    },
+
+    "link#header__top--signup": {
+        "props":{
+            "blockClass":"header__top--signup",
+            "href":"/account",
+            "label": "Email Sign Up"
+        }
+    },
+
+    "link#header__top--blog": {
+        "props": {
+            "blockClass":"header__top--blog",
+            "href": "https://central.gymshark.com/",
+            "label": "Blog"
+        }
+    },
+
+
+
+//--------------------------------------------//------------------------------------------------
+
+
+    
+    "header-row#header__bottom--desktop": {
+        "children":[
+            "logo#header__bottom--logo",
+            "header-force-center#header__bottom--desktop",
+            "header-spacer",
+            "search-bar",
+            // "icon"
+            "login#header__bottom--login",
+            "minicart.v2"
+        ],
+
+        "props":{
+            "blockClass":"header__bottom--desktop"
+        }
+    },
+
+
+    "logo#header__bottom--logo":{
+        "title": "Logo__phone",
+        "props":{
+          "url": "https://cdn.gymshark.com/images/branding/gs-icon-black.svg",
+          "width": 40,
+          "href": "/"
+        }
+    },
+
+    "header-force-center#header__bottom--desktop": {
+        "children":[
+            "modal-trigger#header__bottom--women",
+            "modal-trigger#header__bottom--men",
+            "modal-trigger#header__bottom--accesories"
+        ]
+    },
+
+
+    "modal-trigger#header__bottom--women": {
+       "children": [
+        "rich-text#header__bottom--women",
+        "modal-layout#header__bottom--women"
+       ]
+    },
+
+    "modal-trigger#header__bottom--men": {
+        "children": [
+         "rich-text#header__bottom--men",
+         "modal-layout#header__bottom--men"
+        ]
+     },
+
+     "modal-trigger#header__bottom--accesories": {
+        "children": [
+         "rich-text#header__bottom--accesories",
+         "modal-layout#header__bottom--accesories"
+        ]
+     },
+
+
+    "rich-text#header__bottom--women":{
+        "props":{
+            "blockClass": "header__department--woman",
+            "text": "WOMEN"
+        }
+    },
+
+    "rich-text#header__bottom--men":{
+        "props":{
+            "blockClass": "header__department--men",
+            "text": "MEN"
+        }
+    },
+
+    "rich-text#header__bottom--accesories":{
+        "props":{
+            "blockClass": "header__department--accesories",
+            "text": "ACCESORIES"
+        }
+    },
+    
+    "modal-layout#header__bottom--women" :{
+        "children":[
+        //   "women-content"
+        ]
+      },
+
+      "modal-layout#header__bottom--men" :{
+        "children":[
+        //   "men-content"
+        ]
+      },
+
+      "modal-layout#header__bottom--accesories" :{
+        "children":[
+        //   "accesories-content"
+        ]
+      },
+
+    "search-bar":{
+        "props":{
+            "maxWidth": 250,
+            "placeholder": "Search for a Product"
+            
+         }
+    },
+
+
+    "login#header__bottom--login":{
+        "props": {
+            
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true
+            // "showIconProfile": true
+          }
+    }
+
+
+}
