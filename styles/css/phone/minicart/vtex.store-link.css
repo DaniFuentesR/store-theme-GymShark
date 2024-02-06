@@ -8,3 +8,14 @@
     font-size: 12px;
     margin-bottom: 16px;
 }
+
+.buttonLink--minicart__footer__button{
+    background-color: #53565A;
+    color: white;
+    font-size: 14px;
+    font-family: "helvetica";
+    border: #53565A;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 320px;
+}

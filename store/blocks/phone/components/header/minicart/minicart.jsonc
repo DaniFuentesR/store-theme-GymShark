@@ -21,7 +21,8 @@
 
         "children":[
             "minicart-product-list",
-            "flex-layout.row#minicart__footer"
+            "flex-layout.row#minicart__summary",
+            "flex-layout.row#minicart__footer--buttons"
         ]
     },
 
@@ -105,6 +106,13 @@
         }
     },
 
+    "drawer-close-button":{
+        "props":{
+            "blockClass": "minicart__header--closeIcon"
+        }
+    },
+
+
     "link#minicart__button--shopwomen":{
         "props":{
           "blockClass":"minicart__image--button",
@@ -160,7 +168,6 @@
         "children":[
             "flex-layout.col#minicart__col--image",
             "flex-layout.col#minicart__col--info"
-
         ],
         "props":{
             "blockClass": "minicart__productlist--colContainer"
@@ -178,24 +185,92 @@
     "flex-layout.col#minicart__col--info":{
         "children":[
             "vtex.product-list:product-name",
-            // "category",
-            // "color",
-            // "size",
-            "price"
+            "vtex.product-list:product-brand",
+            "price",
+            "flex-layout.col#minicart__col--icons",
+            "flex-layout.col#minicart__col--qtySelector"
         ],
         "props":{
             "blockClass": "minicart__productlist--info"
         }
     },
 
+
+
+    "flex-layout.col#minicart__col--icons":{
+        "children":[
+            "icon-heart",
+            "remove-button"
+        ],
+        "props":{
+            "blockClass": "minicart__productlist--icons"
+        }
+    },
+
+    "flex-layout.col#minicart__col--qtySelector":{
+        "children":[
+            "rich-text#minicart--qtitySelector",
+            "quantity-selector"
+        ],
+        "props":{
+            "blockClass": "minicart__quantity-selector"
+        }
+    },
+
+    "rich-text#minicart--qtitySelector":{
+        "props":{
+            "text": "Qty: ",
+            "blockClass": "minicart__qtitySelector--text"
+        }
+    },
+    
+    "quantity-selector":{
+        "props":{
+            "blockClass": "minicart__qtitySelector"
+        }
+    },
+
+    "flex-layout.row#minicart__summary":{
+        "children":[
+            "minicart-summary"
+        ],
+
+        "props":{
+            "blockClass": "minicart__summary"
+        }
+    },
+
+    "flex-layout.row#minicart__footer--buttons":{
+        "children":[
+            "minicart-checkout-button",
+            "link#minicart__button--fullbag"
+        ],
+
+        "props":{
+            "blockClass": "minicart__footer--buttons"
+        }
+    },
+
+    "minicart-checkout-button":{
+        "props":{
+            "blockClass":"minicart__checkout__button"
+            
+        }
+    },
+
+
+    "link#minicart__button--fullbag":{
+        "title": "minicart shopbag button",
+            "props":{
+                "blockClass":"minicart__footer__button",
+                "href": "https://ca.gymshark.com/cart",
+                "label": "VIEW FULL BAG",
+                "displayMode":"button"
+
+            }
+    }
     
 
-    "flex-layout.row#minicart__footer":{
-        "children":[
-            "minicart-summary",
-            "minicart-checkout-button"
-        ]
-    }
 
 
 

@@ -1,424 +1,406 @@
 {
-    "footer": {
-        "blocks": [
-            "footer-layout.mobile",
-            "footer-layout.desktop"
-            
-        ]
-    },
+   
 
-    "footer-layout.desktop":{
-        "children": [
-             "flex-layout.row#footer-desktop--infosection",
-            
-             "flex-layout.row#footer-desktop--paymenthandmedia",
+  
 
-             "flex-layout.row#footer-desktop--termssection"
-          ],
+    // "flex-layout.row#footer-desktop--infosection":{
+    //     "children":[
+    //         "flex-layout.col#desktop__footer__help",
+    //         "flex-layout.col#desktop__footer__account",
+    //         "flex-layout.col#desktop__footer__pages",
+    //         "rich-text#desktop__footer--moreaboutsection--title",
+    //         "flex-layout.col#desktop__footer__blog",
+    //         "flex-layout.col#desktop__footer__email",
+    //         "flex-layout.col#desktop__footer__training"
+    //     ],
+    //     "props":{
+    //         "blockClass": "footer__desktop--infosection"
+    //     }
+    // },
 
-          "props":{
-            "blockClass": "desktop__footer2--container"
-          }
-    },
+    // "flex-layout.row#footer-desktop--paymenthandmedia":{
+    //     "children":[
+    //         "flex-layout.col#desktop__footer--payments",
+    //         "flex-layout.col#desktop__footer--socialmedia"
+    //     ],
 
-    "flex-layout.row#footer-desktop--infosection":{
-        "children":[
-            "flex-layout.col#desktop__footer__help",
-            "flex-layout.col#desktop__footer__account",
-            "flex-layout.col#desktop__footer__pages",
-            "rich-text#desktop__footer--moreaboutsection--title",
-            "flex-layout.col#desktop__footer__blog",
-            "flex-layout.col#desktop__footer__email",
-            "flex-layout.col#desktop__footer__training"
-        ],
-        "props":{
-            "blockClass": "footer__desktop--infosection"
-        }
-    },
+    //     "props":{
+    //         "blockClass": "container__footer2"
+    //     }
+    // },
 
-    "flex-layout.row#footer-desktop--paymenthandmedia":{
-        "children":[
-            "flex-layout.col#desktop__footer--payments",
-            "flex-layout.col#desktop__footer--socialmedia"
-        ],
+    // "flex-layout.row#footer-desktop--termssection":{
+    //     "children":[
+    //         "flex-layout.col#desktop__footer--info1",
+    //         "flex-layout.row#desktop__footer--info2"
+    //     ],
 
-        "props":{
-            "blockClass": "container__footer2"
-        }
-    },
+    //     "props":{
+    //         "blockClass": "container__footer3"
+    //     }
+    // },
 
-    "flex-layout.row#footer-desktop--termssection":{
-        "children":[
-            "flex-layout.col#desktop__footer--info1",
-            "flex-layout.row#desktop__footer--info2"
-        ],
+    // "flex-layout.col#desktop__footer--info1":{
+    //     "children":[
+    //         "rich-text#footer__lastsection--mobile"
+    //     ],
+    //     "props":{
+    //         "blockClass": "container__lastsection--desktop"
+    //     }
+    // },
 
-        "props":{
-            "blockClass": "container__footer3"
-        }
-    },
+    // "flex-layout.row#desktop__footer--info2":{
+    //     "title": "footer mobile terms of use with children",
+    //     "children":[
+    //         "link#footer__conditions--mobile",
+    //         "link#footer__use--mobile",
+    //         "link#footer__privacy--mobile",
+    //         "link#footer__cookies--mobile",
+    //         "link#footer__slavery--mobile"
+    //     ],
 
-    "flex-layout.col#desktop__footer--info1":{
-        "children":[
-            "rich-text#footer__lastsection--mobile"
-        ],
-        "props":{
-            "blockClass": "container__lastsection--desktop"
-        }
-    },
-
-    "flex-layout.row#desktop__footer--info2":{
-        "title": "footer mobile terms of use with children",
-        "children":[
-            "link#footer__conditions--mobile",
-            "link#footer__use--mobile",
-            "link#footer__privacy--mobile",
-            "link#footer__cookies--mobile",
-            "link#footer__slavery--mobile"
-        ],
-
-        "props":{
-            "blockClass": "footer__mobile--termsofuse"
-        }
-    },
+    //     "props":{
+    //         "blockClass": "footer__mobile--termsofuse"
+    //     }
+    // },
 
 
 
 
 
-    "flex-layout.col#desktop__footer--payments":{
-        "children":[
-            "accepted-payment-methods"
-        ],
+    // "flex-layout.col#desktop__footer--payments":{
+    //     "children":[
+    //         "accepted-payment-methods"
+    //     ],
 
-        "props":{
-            "blockClass": "container__footer2__payment"
-        }
-    },
+    //     "props":{
+    //         "blockClass": "container__footer2__payment"
+    //     }
+    // },
 
-    "flex-layout.col#desktop__footer--socialmedia":{
-        "children":[
-            "social-networks"
-        ],
+    // "flex-layout.col#desktop__footer--socialmedia":{
+    //     "children":[
+    //         "social-networks"
+    //     ],
 
-        "props":{
-            "blockClass": "container__footer2--media"
-        }
-    },
-
-
-
-    "flex-layout.col#desktop__footer__help":{
-
-        "title": "footer help section with childrens",
-        "children":[
+    //     "props":{
+    //         "blockClass": "container__footer2--media"
+    //     }
+    // },
 
 
-            "rich-text#desktop__footer--help--title",
-            "link#desktop__footer--help--faq",
-            "link#desktop__footer--help--delivinfo",
-            "link#desktop__footer--help--returns",
-            "link#desktop__footer--help--makearetunr",
-            "link#desktop__footer--help--orders",
-            "link#desktop__footer--help--submit"
 
-        ],
-        "props":{
-            "blockClass": "container__items--section8"
-        }
-    },
+    // "flex-layout.col#desktop__footer__help":{
 
-    "flex-layout.col#desktop__footer__account":{
+    //     "title": "footer help section with childrens",
+    //     "children":[
 
-        "title": "footer account section with childrens",
-        "children":[
 
-            "rich-text#desktop__footer--account--title",
-            "link#desktop__footer--account--login",
-            "link#desktop__footer--account--register"
-        ],
-        "props":{
-            "blockClass": "container__items--section8",
-            "preventVerticalStretch": true
-        }
-    },
+    //         "rich-text#desktop__footer--help--title",
+    //         "link#desktop__footer--help--faq",
+    //         "link#desktop__footer--help--delivinfo",
+    //         "link#desktop__footer--help--returns",
+    //         "link#desktop__footer--help--makearetunr",
+    //         "link#desktop__footer--help--orders",
+    //         "link#desktop__footer--help--submit"
 
-    "flex-layout.col#desktop__footer__pages":{
-        "title": "footer pages section with childrens",
-        "children":[
+    //     ],
+    //     "props":{
+    //         "blockClass": "container__items--section8"
+    //     }
+    // },
 
-            "rich-text#desktop__footer--pages--title",
-            "link#desktop__footer--pages--central",
-            "link#desktop__footer--pages--aboutus",
-            "link#desktop__footer--pages--careers",
-            "link#desktop__footer--pages--studiscount",
-            "link#desktop__footer--pages--factory"
+    // "flex-layout.col#desktop__footer__account":{
 
-        ],
+    //     "title": "footer account section with childrens",
+    //     "children":[
 
-        "props":{
-            "blockClass": "container__items--section8"
-        }
-    },
+    //         "rich-text#desktop__footer--account--title",
+    //         "link#desktop__footer--account--login",
+    //         "link#desktop__footer--account--register"
+    //     ],
+    //     "props":{
+    //         "blockClass": "container__items--section8",
+    //         "preventVerticalStretch": true
+    //     }
+    // },
 
-    // MORE ABOUT SECTION
+    // "flex-layout.col#desktop__footer__pages":{
+    //     "title": "footer pages section with childrens",
+    //     "children":[
 
-    "rich-text#desktop__footer--moreaboutsection--title":{
-        "title": "footer section more about",
-        "props": {
-            "blockClass": "footer__moreabout",
-            "text": "MORE ABOUT GYMSHARK"
-        }
-    },
+    //         "rich-text#desktop__footer--pages--title",
+    //         "link#desktop__footer--pages--central",
+    //         "link#desktop__footer--pages--aboutus",
+    //         "link#desktop__footer--pages--careers",
+    //         "link#desktop__footer--pages--studiscount",
+    //         "link#desktop__footer--pages--factory"
 
-    "flex-layout.col#desktop__footer__blog":{
-        "children":[
-            "image#desktop__footer--imageblog",
-            "rich-text#footer__imageblog--text"
-        ],
+    //     ],
 
-        "props":{
-            "blockClass": "footer__images--section",
-            "preventVerticalStretch": true
-        }
-    },
+    //     "props":{
+    //         "blockClass": "container__items--section8"
+    //     }
+    // },
 
-    "flex-layout.col#desktop__footer__email":{
-        "children":[
-            "image#desktop__footer--imageemail",
-            "rich-text#footer__imageemail--text"
-        ],
+    // // MORE ABOUT SECTION
 
-        "props":{
-            "blockClass": "footer__images--section",
-            "preventVerticalStretch": true
-        }
-    },
+    // "rich-text#desktop__footer--moreaboutsection--title":{
+    //     "title": "footer section more about",
+    //     "props": {
+    //         "blockClass": "footer__moreabout",
+    //         "text": "MORE ABOUT GYMSHARK"
+    //     }
+    // },
 
-    "flex-layout.col#desktop__footer__training":{
-        "children":[
-            "image#desktop__footer--imagetraining",
-            "rich-text#footer__imagetraining--text"
-        ],
+    // "flex-layout.col#desktop__footer__blog":{
+    //     "children":[
+    //         "image#desktop__footer--imageblog",
+    //         "rich-text#footer__imageblog--text"
+    //     ],
 
-        "props":{
-            "blockClass": "footer__images--section",
-            "preventVerticalStretch": true
-        }
-    },
+    //     "props":{
+    //         "blockClass": "footer__images--section",
+    //         "preventVerticalStretch": true
+    //     }
+    // },
 
-        //IMAGES
+    // "flex-layout.col#desktop__footer__email":{
+    //     "children":[
+    //         "image#desktop__footer--imageemail",
+    //         "rich-text#footer__imageemail--text"
+    //     ],
 
-        "image#desktop__footer--imageblog":{
+    //     "props":{
+    //         "blockClass": "footer__images--section",
+    //         "preventVerticalStretch": true
+    //     }
+    // },
 
-            "title": "footer section more about gymshark blog image",
-            "props":{
-                "blockClass": "footer__blogimage--mobile",
-                "src": "https://images.ctfassets.net/wl6q2in9o7k3/4QtcnsrjM61MBOfKzadnle/a18d71a24ca40bbc8137b754927e9c75/blog.jpg?w=110&q=80&fm=webp"
-            }
-        },
+    // "flex-layout.col#desktop__footer__training":{
+    //     "children":[
+    //         "image#desktop__footer--imagetraining",
+    //         "rich-text#footer__imagetraining--text"
+    //     ],
 
-        "image#desktop__footer--imageemail":{
+    //     "props":{
+    //         "blockClass": "footer__images--section",
+    //         "preventVerticalStretch": true
+    //     }
+    // },
 
-            "title": "footer section more about gymshark signup image",
-            "props":{
-                "blockClass": "footer__blogimage--mobile",
-                "src": "https://images.ctfassets.net/wl6q2in9o7k3/78i6cwhCg8cVO59Dvlk7Gy/ec15b2ca715a0b1aa27be0fd09c6aa03/newsletter__1_.jpg?w=110&q=80&fm=webp"
-            }
-        },
+    //     //IMAGES
+
+    //     "image#desktop__footer--imageblog":{
+
+    //         "title": "footer section more about gymshark blog image",
+    //         "props":{
+    //             "blockClass": "footer__blogimage--mobile",
+    //             "src": "https://images.ctfassets.net/wl6q2in9o7k3/4QtcnsrjM61MBOfKzadnle/a18d71a24ca40bbc8137b754927e9c75/blog.jpg?w=110&q=80&fm=webp"
+    //         }
+    //     },
+
+    //     "image#desktop__footer--imageemail":{
+
+    //         "title": "footer section more about gymshark signup image",
+    //         "props":{
+    //             "blockClass": "footer__blogimage--mobile",
+    //             "src": "https://images.ctfassets.net/wl6q2in9o7k3/78i6cwhCg8cVO59Dvlk7Gy/ec15b2ca715a0b1aa27be0fd09c6aa03/newsletter__1_.jpg?w=110&q=80&fm=webp"
+    //         }
+    //     },
 
     
-        "image#desktop__footer--imagetraining":{
-            "title": "footer section more about gymshark training image",
+    //     "image#desktop__footer--imagetraining":{
+    //         "title": "footer section more about gymshark training image",
 
-            "props":{
+    //         "props":{
     
-                "blockClass": "footer__blogimage--mobile",
-                "src": "https://images.ctfassets.net/wl6q2in9o7k3/3TTQZzGVSeCd6TrrBs0OlS/16db4a41783e3ae43ac642c327aa82c9/new_training_app_footer.jpg?w=140&q=80&fm=webp"
-            }
-        },
+    //             "blockClass": "footer__blogimage--mobile",
+    //             "src": "https://images.ctfassets.net/wl6q2in9o7k3/3TTQZzGVSeCd6TrrBs0OlS/16db4a41783e3ae43ac642c327aa82c9/new_training_app_footer.jpg?w=140&q=80&fm=webp"
+    //         }
+    //     },
 
 
-        //RICH TEXT
+    //     //RICH TEXT
     
-        "rich-text#footer__imageblog--text":{
-            "title": "footer section more about gymshark blog title",
-            "props": {
-                "blockClass": "footer__moreaboutsection--blog--mobile",
-                "text": "BLOG"
-            }
-        },
+    //     "rich-text#footer__imageblog--text":{
+    //         "title": "footer section more about gymshark blog title",
+    //         "props": {
+    //             "blockClass": "footer__moreaboutsection--blog--mobile",
+    //             "text": "BLOG"
+    //         }
+    //     },
     
-        "rich-text#footer__imageemail--text":{
-            "title": "footer section more about gymshark signup title",
-            "props": {
-                "blockClass": "footer__moreaboutsection--blog--mobile",
-                "text": "EMAIL SIGN UP"
-            }
-        },
+    //     "rich-text#footer__imageemail--text":{
+    //         "title": "footer section more about gymshark signup title",
+    //         "props": {
+    //             "blockClass": "footer__moreaboutsection--blog--mobile",
+    //             "text": "EMAIL SIGN UP"
+    //         }
+    //     },
     
-        "rich-text#footer__imagetraining--text":{
-            "title": "footer section more about gymshark training title",
-            "props": {
-                "blockClass": "footer__moreaboutsection--blog--mobile",
-                "text": "GYMSHARK TRAINING"
-            }
-        },
+    //     "rich-text#footer__imagetraining--text":{
+    //         "title": "footer section more about gymshark training title",
+    //         "props": {
+    //             "blockClass": "footer__moreaboutsection--blog--mobile",
+    //             "text": "GYMSHARK TRAINING"
+    //         }
+    //     },
     
 
-    // BLOCKS STATEMENTS
+    // // BLOCKS STATEMENTS
 
-        //HELP SECTION
-
-
-        "rich-text#desktop__footer--help--title":{
-            "title": "footer section help title",
-        "props": {
-            "blockClass": "footer__titles",
-            "text": "HELP"
-        }
-        },
-
-        "link#desktop__footer--help--faq":{
-            "title": "faq link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://support.gymshark.com/en-US",
-                    "label": "FAQ"
-            }
-        },
-
-        "link#desktop__footer--help--delivinfo":{
-            "title": "delivery information link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://support.gymshark.com/en-US/article/delivery-information",
-                    "label": "Delivery Information"
-            }
-        },
-
-        "link#desktop__footer--help--returns":{
-            "title": "returns policy link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://support.gymshark.com/en-US/article/returns-policy",
-                    "label": "Returns Policy"
-            }
-        },
-
-        "link#desktop__footer--help--makearetunr":{
-            "title": "make a return link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://us-gymshark.happyreturns.com/",
-                    "label": "Make a Return"
-            }
-        },
-
-        "link#desktop__footer--help--orders":{
-            "title": "orders link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://support.gymshark.com/en-US/category/orders-and-delivery",
-                    "label": "Orders"
-            }
-        },
-
-        "link#desktop__footer--help--submit":{
-            "title": "Submit a Fake link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://ca.gymshark.com/pages/submit-a-fake",
-                    "label": "Submit a Fake"
-            }
-        },
+    //     //HELP SECTION
 
 
-        // ACCOUNT SECTION
+    //     "rich-text#desktop__footer--help--title":{
+    //         "title": "footer section help title",
+    //     "props": {
+    //         "blockClass": "footer__titles",
+    //         "text": "HELP"
+    //     }
+    //     },
+
+    //     "link#desktop__footer--help--faq":{
+    //         "title": "faq link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://support.gymshark.com/en-US",
+    //                 "label": "FAQ"
+    //         }
+    //     },
+
+    //     "link#desktop__footer--help--delivinfo":{
+    //         "title": "delivery information link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://support.gymshark.com/en-US/article/delivery-information",
+    //                 "label": "Delivery Information"
+    //         }
+    //     },
+
+    //     "link#desktop__footer--help--returns":{
+    //         "title": "returns policy link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://support.gymshark.com/en-US/article/returns-policy",
+    //                 "label": "Returns Policy"
+    //         }
+    //     },
+
+    //     "link#desktop__footer--help--makearetunr":{
+    //         "title": "make a return link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://us-gymshark.happyreturns.com/",
+    //                 "label": "Make a Return"
+    //         }
+    //     },
+
+    //     "link#desktop__footer--help--orders":{
+    //         "title": "orders link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://support.gymshark.com/en-US/category/orders-and-delivery",
+    //                 "label": "Orders"
+    //         }
+    //     },
+
+    //     "link#desktop__footer--help--submit":{
+    //         "title": "Submit a Fake link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://ca.gymshark.com/pages/submit-a-fake",
+    //                 "label": "Submit a Fake"
+    //         }
+    //     },
 
 
-        "rich-text#desktop__footer--account--title":{
-            "title": "footer section account title",
-        "props": {
-            "blockClass": "footer__titles",
-            "text": "MY ACCOUNT"
-        }
-        },
+    //     // ACCOUNT SECTION
 
-        "link#desktop__footer--account--login":{
-            "title": "login link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://ca.gymshark.com/account/login",
-                    "label": "Login"
-            }
-        },
 
-        "link#desktop__footer--account--register":{
-            "title": "register link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://ca.gymshark.com/account/register",
-                    "label": "Register"
-            }
-        },
+    //     "rich-text#desktop__footer--account--title":{
+    //         "title": "footer section account title",
+    //     "props": {
+    //         "blockClass": "footer__titles",
+    //         "text": "MY ACCOUNT"
+    //     }
+    //     },
+
+    //     "link#desktop__footer--account--login":{
+    //         "title": "login link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://ca.gymshark.com/account/login",
+    //                 "label": "Login"
+    //         }
+    //     },
+
+    //     "link#desktop__footer--account--register":{
+    //         "title": "register link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://ca.gymshark.com/account/register",
+    //                 "label": "Register"
+    //         }
+    //     },
 
     
-        // PAGES
+    //     // PAGES
 
 
-        "rich-text#desktop__footer--pages--title":{
-            "title": "footer section pages title",
-        "props": {
-            "blockClass": "footer__titles",
-            "text": "PAGES"
-        }
-        },
+    //     "rich-text#desktop__footer--pages--title":{
+    //         "title": "footer section pages title",
+    //     "props": {
+    //         "blockClass": "footer__titles",
+    //         "text": "PAGES"
+    //     }
+    //     },
 
-        "link#desktop__footer--pages--central":{
-            "title": "central link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://central.gymshark.com/",
-                    "label": "Gymshark Central"
-            }
-        },
+    //     "link#desktop__footer--pages--central":{
+    //         "title": "central link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://central.gymshark.com/",
+    //                 "label": "Gymshark Central"
+    //         }
+    //     },
 
-        "link#desktop__footer--pages--aboutus":{
-            "title": "aboutus link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://ca.gymshark.com/pages/about-us",
-                    "label": "About Us"
-            }
-        },
+    //     "link#desktop__footer--pages--aboutus":{
+    //         "title": "aboutus link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://ca.gymshark.com/pages/about-us",
+    //                 "label": "About Us"
+    //         }
+    //     },
 
-        "link#desktop__footer--pages--careers":{
-            "title": "careers link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://careers.gymshark.com/",
-                    "label": "Careers"
-            }
-        },
+    //     "link#desktop__footer--pages--careers":{
+    //         "title": "careers link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://careers.gymshark.com/",
+    //                 "label": "Careers"
+    //         }
+    //     },
 
-        "link#desktop__footer--pages--studiscount":{
-            "title": "student dsicount link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://ca.gymshark.com/pages/studentbeans",
-                    "label": "Student Discount"
-            }
-        },
+    //     "link#desktop__footer--pages--studiscount":{
+    //         "title": "student dsicount link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://ca.gymshark.com/pages/studentbeans",
+    //                 "label": "Student Discount"
+    //         }
+    //     },
 
-        "link#desktop__footer--pages--factory":{
-            "title": "factory list link",
-            "props":{
-                "blockClass":"footer__items",
-                    "href": "https://support.gymshark.com/en-US/pages/gymshark-factory-list",
-                    "label": "Factory List"
-            }
-        },
+    //     "link#desktop__footer--pages--factory":{
+    //         "title": "factory list link",
+    //         "props":{
+    //             "blockClass":"footer__items",
+    //                 "href": "https://support.gymshark.com/en-US/pages/gymshark-factory-list",
+    //                 "label": "Factory List"
+    //         }
+    //     },
 
 
 // MOBILE

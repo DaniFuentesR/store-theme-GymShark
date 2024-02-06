@@ -1,26 +1,8 @@
 {
-    "header": {
-        "blocks": [
-            "header-layout.desktop"
-            
-        ]
-    },
-
-    "header.full": {
-        "blocks": [
-            "header-layout.desktop"     
-        ]
-    },
     
-    "header-layout.desktop": {
-        "children": [
-            "header-row#header__top--desktop",
-            "header-row#header__bottom--desktop",
-            "icon#home__orders--icon"
-        ]
-    },
+   
 
-    "header-row#header__top--desktop": {
+    "header-row#desktop__header--top": {
         "children": [
             "link#header__top--login",
             "link#header__top--statement",
@@ -85,7 +67,7 @@
 
 
     
-    "header-row#header__bottom--desktop": {
+    "header-row#desktop__header--bottom": {
         "children":[
             "logo#header__bottom--logo",
             "header-force-center#header__bottom--desktop",

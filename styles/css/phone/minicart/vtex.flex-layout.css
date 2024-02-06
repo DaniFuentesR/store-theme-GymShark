@@ -10,6 +10,8 @@
 
 .flexRowContent--minicart__productlist--colContainer {
     display: flex;    
+    border-bottom: 1px solid #e7e7e7;
+    padding-top: 20px;
 }
 
 .flexCol--minicart__empty--info{
@@ -19,4 +21,40 @@
 
 .flexRowContent--minicart__header--items:nth-child(2n){
     width: 0;
+}
+
+.flexCol--minicart__productlist--icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.flexCol--minicart__productlist--info{
+    gap: 10px;
+    position: relative;
+    right: 40px;
+    font-family: "helvetica";
+    font-size: 14px;
+}
+
+.flexCol--minicart__quantity-selector{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 45px;
+}
+
+.flexColChild--minicart__productlist--image{
+    height: 40%;
+}
+
+.flexRowContent--minicart__summary{
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 70px;
+}
+
+.flexRow--minicart__footer--buttons{
+    display: flex;
+    justify-content: center;
 }

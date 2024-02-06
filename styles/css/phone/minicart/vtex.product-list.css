@@ -1,0 +1,34 @@
+.productPriceContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: end;
+}
+
+.productPriceCurrency{
+    color: red;
+}
+
+.removeButton{
+    padding: 6px;
+    border: 1px solid #f7f4f4;
+    border-radius: 100px;
+    background: #f7f4f4;
+    color: black;
+}
+
+.productName{
+    font-weight: 200;
+    font-size: 14px;
+    color: black;
+    font-family: "helvetica";
+}
+
+.productBrandName{
+    font-weight: 100;
+    color: #53565a;
+    font-size: 10px;
+    font-family: "helvetica";
+
+}

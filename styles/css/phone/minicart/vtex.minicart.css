@@ -6,3 +6,21 @@
     display: none;
 
 }
+
+.minicartProductListContainer--minicart__productlist--container{
+    height: 70%;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.minicartCheckoutButton--minicart__checkout__button {
+    :global(.vtex-button) {
+        background-color: #007DB5;
+        color: white;
+        font-size: 14px;
+        font-family: "helvetica";
+        border: #007DB5;
+        border-radius: 50px;
+        font-weight: bold;
+        width: 320px;
+   }
+}

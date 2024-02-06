@@ -1,0 +1,15 @@
+{
+    "footer-layout.desktop":{
+        "children": [
+             "flex-layout.row#footer-desktop--infosection",
+            
+             "flex-layout.row#footer-desktop--paymenthandmedia",
+
+             "flex-layout.row#footer-desktop--termssection"
+          ],
+
+          "props":{
+            "blockClass": "desktop__footer2--container"
+          }
+    }
+}
