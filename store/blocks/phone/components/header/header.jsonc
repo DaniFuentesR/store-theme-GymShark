@@ -22,7 +22,7 @@
     "header-row#header__mobile" :{
         "children": [
             "drawer#header__mobile--menu",
-            // "search-bar",
+            "search-bar",
             "header-spacer",
             "login",
             "minicart.v2",
@@ -50,12 +50,16 @@
     "drawer#header__mobile--menu": {
        "children": [
         "menu#header__menu--mobile"
-       ]
+       ],
+
+       "props": {
+        "blockClass": "heder__mobile--menu"
+       }
     },
 
     // "search-bar":{
     //     "props": {
-    //        "hasIconLeft": true 
+    //        "hasIconLeft": true  
     //     }
     // },
 
@@ -92,13 +96,15 @@
         ],
 
         "props":{
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "blockClass": "menu__mobile--items"
         }
     },
 
     "rich-text#header__menu--mobile": {
         "props":{
-            "text": "SHOP"
+            "text": "SHOP",
+            "blockClass": "menu__title"
         }
     },
 
@@ -106,6 +112,7 @@
         "props":{
             "blockClass": "menu__header--searchbar",
             "placeholder": "Search for a Product"
+            
             
          }
     },
@@ -136,12 +143,16 @@
 
     "menu#department__women":{
         "children":[
-            "menu-item#category__womenssale"
-            // "menu-item#category__trending"
-            // "menu-item#category__products",
-            // "menu-item#category__collections",
-            // "menu-item#category__backtogym"
-        ]
+            "menu-item#category__womenssale",
+            "menu-item#category__trending",
+            "menu-item#category__products",
+            "menu-item#category__collections",
+            "menu-item#category__backtogym"
+        ],
+
+        "props":{
+            "orientation": "vertical"
+        }
     },
 
     "menu-item#category__womenssale":{
@@ -155,8 +166,63 @@
                 "text": "WOMEN'S SALE"
             }
         }
+    },
+
+    "menu-item#category__trending":{
+        "props":{
+            "id": "category__trending",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "tagTitle": "trending",
+                "text": "TRENDING"
+            }
+        }
+    },
+
+    "menu-item#category__products":{
+        "props":{
+            "id": "category__products",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "tagTitle": "products",
+                "text": "PRODUCTS"
+            
+            }
+        }
+    },
+
+    "menu-item#category__collections":{
+        "props":{
+            "id": "category__collections",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "tagTitle": "collections",
+                "text": "COLLECTIONS"
+            
+            }
+        }   
+    },
+
+    "menu-item#category__backtogym":{
+        "props":{
+            "id": "category__backtogym",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "tagTitle": "backtogym",
+                "text": "BACK TO GYM"
+            
+            }
+        }
     }
-    
+
 
 
     // "menu-item#category__accesories": {

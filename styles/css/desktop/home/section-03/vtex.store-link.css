@@ -1,0 +1,24 @@
+.buttonLink--home__image--shopwomen3--desktop{
+    background: black;
+    color: white;
+    border-radius: 56px;
+    border-color: black;
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    width: 190px;
+}
+
+.buttonLink--home__image--shopmen3--desktop{
+    background: gray;
+    color: white;
+    border-radius: 56px;
+    border-color: gray;
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 16px;
+    width: 190px;
+}

@@ -1,0 +1,104 @@
+{
+    "flex-layout.row#desktop__home__section-4--info":{
+        "title": "Home Section two desktop, info div",
+        "children": [
+            "rich-text#desktop__home__section4--info",
+            "link#desktop__home__viewall--sectiontwo"
+
+        ],
+
+        "props": {
+            "blockClass": "desktop__home__section2--info"
+
+        }
+    },
+
+    "flex-layout.row#desktop__home__section-4":{
+        "title": "Home Section fourth, scroll products",
+        "children": [
+            "shelf#desktop__summaryProducts--home"
+        ]   
+    },
+
+    "shelf#desktop__summaryProducts--home":{
+        "blocks": ["product-summary.shelf"],
+        "props":{
+            "maxItems": 7,
+            "scroll": "BY_PAGE"
+        }
+    },
+
+
+
+    // "list-context.product-list":{
+    //     "blocks": ["product-summary.shelf"]
+    // },
+
+    "product-summary.shelf": {
+        "children": [
+          "product-summary-name",
+        //   "product-summary-description",
+          "product-summary-image",
+          "product-summary-price",
+          "product-summary-sku-selector",
+          "product-summary-add-to-cart-button"
+        ]
+      },
+
+    //BLOCKS STATEMENTS
+
+        //rich-text#desktop__home__section4--info
+
+    "rich-text#desktop__home__section4--info":{
+        "title": "Info section fourth Dekstop",
+
+        "props": {
+            "blockClass":"desktop__home__section2--richtext",
+            "text": "SHOP THE SET FOR 50% OFF"
+        }
+    },
+
+    "link#desktop__home__viewall--sectiontwo":{
+        "title": "link view all",
+        "props":{
+            "blockClass":"desktop__home__viewall--sectiontwo",
+            "href": "https://ca.gymshark.com/collections/training-essentials/womens?banner_id=hp-training-essentials-dual-cta1",
+            "label": "View All"
+        }
+    }
+
+    // "slider-layout#desktop__home4__slider--products":{
+    //     "props": { 
+    //         "itemsPerPage":{
+    //             "desktop": 2,
+    //             "tablet": 1,
+    //             "phone": 1
+    //         },
+    //         "infinite": true,
+    //         "showNavigationArrows": "desktopOnly",
+    //         "showPaginationDots": "always",
+    //         "blockClass": "home__slider",
+    //         "autoplay":{
+    //             "timeout": 3500,
+    //             "stopOnHover": true
+    //         }
+    //     },
+    //         "children":[
+    //             "image#home4__slider--one"
+    //         ]
+    //     },
+
+    //     "image#home4__slider--one":{
+    //         "props":{
+    //             "src":"https://cdn.forbes.com.mx/2021/05/VTEX.jpg"
+    //         }
+    //     }
+    
+
+
+
+}
+
+
+
+

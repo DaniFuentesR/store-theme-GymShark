@@ -1,0 +1,59 @@
+.wrapper--moreabout__section--footer{
+
+    cursor: pointer;
+    color: black;
+    font-family: "Helvetica";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container--footer__moreaboutsection--blog--mobile{
+    background: #e7e7e7;
+    /* width: 110px; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.container--footer__moreaboutsection--signup--mobile{
+    background: #e7e7e7;
+    /* width: 110px; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.container--footer__moreaboutsection--training--mobile{
+    background: #e7e7e7;
+    /* width: 110px; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.wrapper--footer__moreaboutsection--blog--mobile{
+    color: black;
+    font-size: 12px;
+    font-family: "helvetica";
+    font-weight: bold;
+}
+
+
+.wrapper--footer__moreaboutsection--signup--mobile{
+    color: black;
+    font-size: 12px;
+    font-family: "helvetica";
+    font-weight: bold;
+}
+
+
+.wrapper--footer__moreaboutsection--training--mobile{
+    color: black;
+    font-size: 12px;
+    font-family: "helvetica";
+    font-weight: bold;
+    width: max-content;
+}

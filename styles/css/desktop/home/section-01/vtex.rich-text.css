@@ -1,0 +1,20 @@
+.wrapper--home__image--text--desktop{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    line-height: 54px;
+    background: linear-gradient(180deg,transparent 0, rgb(25, 25, 25) 190.28%);
+
+
+    
+}
+
+.wrapper--home__image--2text--desktop{
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(180deg,transparent 0, rgb(25, 25, 25) 190.28%);
+    
+
+
+    
+}

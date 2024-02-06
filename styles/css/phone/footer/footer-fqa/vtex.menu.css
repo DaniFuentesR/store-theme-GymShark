@@ -1,0 +1,29 @@
+.styledLink--menu__item--footer{
+    cursor: pointer;
+    color: black;
+    font-family: "Helvetica";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menuItemInnerDiv--menu__item--footer{
+    border-top: 1px solid #e7e7e7;
+    padding: 16px 0;
+    
+}
+
+.submenuAccordion--menu__item--footer{
+    margin-bottom: 20px;
+}
+
+.accordionIcon--menu__item--footer--isClosed{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.accordionIcon--menu__item--footer--isOpen{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}

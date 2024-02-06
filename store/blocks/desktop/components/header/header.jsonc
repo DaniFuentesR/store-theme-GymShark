@@ -2,6 +2,7 @@
     "header": {
         "blocks": [
             "header-layout.desktop"
+            
         ]
     },
 
@@ -14,7 +15,8 @@
     "header-layout.desktop": {
         "children": [
             "header-row#header__top--desktop",
-            "header-row#header__bottom--desktop"
+            "header-row#header__bottom--desktop",
+            "icon#home__orders--icon"
         ]
     },
 
@@ -89,7 +91,6 @@
             "header-force-center#header__bottom--desktop",
             "header-spacer",
             "search-bar",
-            // "icon"
             "login#header__bottom--login",
             "minicart.v2"
         ],
@@ -182,7 +183,8 @@
     "search-bar":{
         "props":{
             "maxWidth": 250,
-            "placeholder": "Search for a Product"
+            "placeholder": "Search for a Product",
+            "hasIconLeft": false
             
          }
     },
@@ -195,10 +197,28 @@
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true
-            // "showIconProfile": true
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "hideIconLabel": true
           }
+    },
+
+    "icon#home__orders--icon":{
+        "props":{
+            "id": "icon-shoppingBag",
+            "size": "20"
+        }
     }
+
+    // "minicart.v2":{
+    //     "props":{
+    //         "blockClass": "minicart-icon",
+    //         "MinicartIcon":  "icon-cart",
+    //         "itemCountMode": "total",
+    //         "quantityDisplay": "always"
+            
+    //     }
+    // }
 
 
 }

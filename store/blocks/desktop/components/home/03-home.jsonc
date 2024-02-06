@@ -1,0 +1,94 @@
+{
+    "flex-layout.row#desktop__home__section-3":{
+        "title": "Home desktop section 3",
+
+        "children":[
+          "image#desktop__image--section-3"
+
+        ],
+
+        "props":{
+            "blockClass":"desktop__home__image--section3",
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.row#desktop__home__section3-text":{
+
+        "children": [
+
+            "rich-text#desktop__title__image--section3",
+            "rich-text#desktop__text__image--section3"
+        ],
+        "props":{
+            "blockClass":"desktop__home__text--section3"
+        }
+    },
+
+    "flex-layout.row#desktop__home__section3-buttons": {
+        "children":[
+            "link#desktop__image__button--shopwomen",
+            "link#desktop__image__button--shopmen"  
+  
+          ],
+
+          "props": {
+            "blockClass": "desktop__home--section03--buttons"
+          }
+    },
+
+
+    //BLOCKS STATEMENTS
+
+    "image#desktop__image--section-3":{
+        "title": "Image section 3",
+        "props": {
+            "blockClass": "desktop__home__section3image--phone",
+            "src":"https://images.ctfassets.net/wl6q2in9o7k3/5AFtym5akNuJKNIy17bmTj/4e892874dde5bd8898fd2ee06dac355d/bundle_jan_dualWeb_Banner_Headless_Desktop.jpg?w=1920&q=100&fm=webp"
+            
+        }
+    },
+
+
+    "rich-text#desktop__title__image--section3":{
+        "title": "title image home section 3 desktop",
+        "props":{
+          "blockClass":[
+            "desktop__home3__image--text"
+          ],
+          "text": "SHOP THE SET FOR 50% OFF"
+        }
+    },
+
+    "rich-text#desktop__text__image--section3":{
+        "title": "main text image home section 3 desktop",
+        "props":{
+          "blockClass":[
+            "desktop__home3__image--2text"
+          ],
+          "text": "Discount auto applies at checkout. Easy."
+        }
+    },
+
+    "link#desktop__image__button--shopwomen":{
+        "props":{
+            "blockClass":"home__image--shopwomen3--desktop",
+            "href": "https://ca.gymshark.com/collections/training-essentials/womens?banner_id=hp-training-essentials-dual-cta1",
+            "label": "SHOP WOMEN",
+            "displayMode":"button"
+          }
+      },
+
+      "link#desktop__image__button--shopmen":{
+        "props":{
+            "blockClass":"home__image--shopmen3--desktop",
+            "href": "https://ca.gymshark.com/collections/training-essentials/mens?banner_id=hp-training-essentials-dual-cta1",
+            "label": "SHOP MEN",
+            "displayMode":"button"
+          }
+      }
+
+
+
+
+}

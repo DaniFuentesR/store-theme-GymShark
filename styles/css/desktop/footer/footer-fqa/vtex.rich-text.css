@@ -1,0 +1,28 @@
+.wrapper--footer__titles{
+    font-size: 18px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.container--footer__moreabout{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    left: 75px;
+
+    
+}
+
+.wrapper--footer__moreabout{
+    font-size: 14px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    color: black;
+}
+
+.paragraph--footer__moreaboutsection--blog--mobile{
+    font-size: 14px;
+}

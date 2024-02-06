@@ -1,0 +1,97 @@
+{
+    "flex-layout.row#desktop__home__section8--info":{
+        "title": "Info section 8 desktop text",
+        "children":[
+            "flex-layout.col#desktop__home--section8"
+        ],
+
+        "props":{
+            "blockClass": "mainContainer__home--section8"
+        }
+    },
+
+
+    "flex-layout.col#desktop__home--section8":{
+        "children":[
+
+            "rich-text#home__section8--firsttext",
+            "rich-text#home__section8--firsttitle",
+            "rich-text#home__section8--secondtext",
+            "rich-text#home__section8--secondtitle",
+            "rich-text#home__section8--thirdtext",
+            "rich-text#home__section8--thirdtitle",
+            "rich-text#home__section8--fourthtext"
+        ],
+
+        "props":{
+            "blockClass": "container__home--section8"
+        }
+    },
+
+
+
+
+     // BLOCKS STATEMENTS
+
+        //TITLES
+    
+        "rich-text#home__section8--firsttitle":{
+            "title": "first title section 8",
+            "props":{
+                "blockClass": "home__section8--titles",
+                "text": "Gym Clothes built in the weight room"
+            }
+        },
+
+        "rich-text#home__section8--secondtitle": {
+            "title": "second title section 8",
+            "props":{
+                "blockClass": "home__section8--titles",
+                "text": "Activewear & Athleisure"
+            }
+        },
+
+
+        "rich-text#home__section8--thirdtitle":{
+            "title": "third title section 8",
+            "props":{
+                "blockClass": "home__section8--titles",
+                "text": "More than your best gym clothing"
+            }
+        },
+
+        // PHARAGRAPHS
+
+        "rich-text#home__section8--firsttext":{
+            "title": "first pharagraph section 8",
+            "props":{
+                "blockClass": "home__section8--pharagraphs",
+                "text": "Gym Clothes designed to help you become your personal best. Because when it comes to performing at your max, there should be no obstacles – least of all your workout clothes. Functional and comfortable, we create workout clothing you'll sweat in. Since 2012, we've designed and created the workout clothes we want to wear, because training and its people are what we know best."
+            }
+        },
+        
+        "rich-text#home__section8--secondtext":{
+            "title": "second pharagraph section 8",
+            "props":{
+                "blockClass": "home__section8--pharagraphs",
+                "text": "Our legacy was built in the weight room. Gymshark was founded with a love for training and that passion continues into all our gym clothes today. You'll find the latest innovation in gym clothing and accessories to help you perform at your best and recover in styles. "
+            }
+        },
+
+        "rich-text#home__section8--thirdtext":{
+            "title": "third pharagraph section 8",
+            "props":{
+                "blockClass": "home__section8--pharagraphs",
+                "text": "We create the tools that help everyone become their personal best – no matter the sport. Our range of Activewear is designed to give you the support you need to perform at your best, whether that's on the track, on the gym floor or in the studio. "
+            }
+        },
+
+        "rich-text#home__section8--fourthtext":{
+            "title": "fourth pharagraph section 8",
+            "props":{
+                "blockClass": "home__section8--pharagraphs",
+                "text": "The Gymshark community is devoted to unlocking potential through conditioning and the things we do today to prepare for tomorrow. It's every setback, step-up and milestone along the way. Game-changing workout clothing, running clothes and loungewear essentials. It's not just in the designs, it's in the people who wear them."
+            }
+        }
+
+}

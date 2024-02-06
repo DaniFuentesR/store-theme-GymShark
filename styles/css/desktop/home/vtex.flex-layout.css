@@ -1,5 +1,157 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
+.flexRowContent--home__image--text--desktop{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 500px;
+    padding: 0 30px;
+    width: 60%;
+    height: 0;
+    
+
+}
+
+.flexRowContent--desktop__home--section01--buttons{
+    position: relative;
+    bottom: 250px;
+    padding-left: 30px;
+    width: 300px;
+    height: 0;
+
+}
+
+/*SECTION TWO*/
+
+.flexRowContent--desktop__home__section2--info{
+    padding: 20px 30px;
+    display: flex;
+    align-items: end;
+}
+
+
+/*SECTION THREE*/
+
+.flexRowContent--desktop__home__text--section3{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 450px;
+    padding: 0 30px;
+    width: 73%;
+    height: 0;
+    align-items: end;
+}
+
+.container--desktop__home3__image--2text{
+    display: flex;
+    
+}
+
+.flexRowContent--desktop__home--section03--buttons{
+    position: relative;
+    bottom: 250px;
+    padding-left: 30px;
+    width: 300px;
+    height: 0;
+
+}
+
+.flexRow--desktop__home--section03--buttons{
+    display: flex;
+
+}
+
+/*SECTION FIVE*/
+
+.flexRowContent--header__section6--desktop{
+    padding: 160px 0 0 18px
+}
+
+.flexRowContent--desktop__home__images--section5{
+    padding: 20px 30px;
+    gap: 10px;
+}
+
+.flexRowContent--desktop__home__text1--section5{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    position: relative;
+    bottom: 225px;
+    
+}
+
+.flexRowContent--desktop__home__text2--section5{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    right: 200px;
+    bottom: 384px;
+}
+
+.flexRowContent--desktop__home--section05--buttons1{
+    width: max-content;
+}
+
+.flexRow--desktop__home__text2--section5{
+    height: 0px;
+}
+
+
+/*SECTION6*/
+
+.flexRow--desktop__home__buttons--section6{
+    position: relative;
+    bottom: 100px;
+    left: 5px;
+}
+
+.flexRowContent--desktop__home__buttons--section6 .stretchChildrenWidth{
+    width: 0;
+}
+
+
+/*SECTION 7*/
+
+.flexRow--mainContainer__section7--home{
+    border-bottom: 1px solid #e7e7e7;
+    padding-top: 110px;
+}
+
+.flexRowContent--mainContainer__section7--home{
+    padding-left: 33px;
+    padding-bottom: 80px;
+}
+
+/* .flexRowContent--home__womenstrending--section7{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--home__womenscollection--section7{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--home__menstrending--section7{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--home__menscollection--section7{
+    display: flex;
+    flex-direction: column;
 } */
+
+.flexRowContent--home__womenstrending--section7.vtex-flex-layout-0-x-stretchChildrenWidth{
+    width: 100%;
+}
+
+.flexRow--mainContainer__home--section8{
+    padding: 24px 28px 50px;
+    border-bottom: 1px solid #e7e7e7;
+}

@@ -1,11 +1,12 @@
 {
-  "flex-layout.row#home__section-1": {
+
+  "flex-layout.row#desktop-home__section-1": {
     "title": "Image section 1",
     "children": [
-      "image#image__section-1"
+      "image#image__section-1--desktop"
     ],
     "props": {
-      "blockClass": "home__image--section1",
+      "blockClass": "home__image--section1--desktop",
       "fullWidth": true
       
     }
@@ -14,54 +15,71 @@
   "flex-layout.row#desktop__home__section1-text":{
     "title": "text inside image section 1",
     "children": [
-      "rich-text#1-info__image--home",
-      "rich-text#2-info__image--home",
-      "link#image__button--shopwomen",
-      "link#image__button--shopmen"
+      "rich-text#1-info__image--home--desktop",
+      "rich-text#2-info__image--home--desktop"
+      
     ],
     "props": {
-      "blockClass": "home__image--text"
+      "blockClass": "home__image--text--desktop"
     }
   },
 
-  "image#image__section-1": {
-    "title": "Main Home Image",
+  "flex-layout.row#desktop__home__section1-buttons":{
+    "title": "butons main image",
+    "children":[
+      "link#image__button--shopwomen--desktop",
+      "link#image__button--shopmen--desktop"
+    ],
+
     "props": {
-      "blockClass": "home__mainimage--phone",
+      "blockClass": "desktop__home--section01--buttons"
+    }
+
+  },
+
+
+  // BLOCKS STATEMENTS
+
+
+
+  "image#image__section-1--desktop": {
+    "title": "Main Home Image desktop",
+    "props": {
+      "blockClass": "home__mainimage--desktop",
       "src":"https://images.ctfassets.net/wl6q2in9o7k3/1CiHFQ1OKay92cMp61I2Pp/d4e3ed7e5df3c2b0a879cb2e886bbc0e/Headless_Desktop_-_D_copy.jpg?w=2048&q=100&fm=webp"
     }
   },
 
-  "rich-text#1-info__image--home":{
+  "rich-text#1-info__image--home--desktop":{
     "title": "main text image home",
     "props":{
       "blockClass":[
-        "home__image--text"
+        "home__image--text--desktop"
       ],
       "text": "20% OFF* TRAINING ESSENTIALS"
     }
   },
 
-  "rich-text#2-info__image--home":{
+  "rich-text#2-info__image--home--desktop":{
     "title": "secondary text image home",
     "props":{
-      "blockClass":"home__image--2text",
+      "blockClass":"home__image--2text--desktop",
       "text": "Get prepared for progress with the ‘fits you’ll become your best in.  *selected lines"
     }
   },
 
-  "link#image__button--shopwomen":{
+  "link#image__button--shopwomen--desktop":{
     "props":{
-      "blockClass":"home__image--shopwomen",
+      "blockClass":"home__image--shopwomen--desktop",
       "href": "https://ca.gymshark.com/collections/training-essentials/womens?banner_id=hp-training-essentials-dual-cta1",
       "label": "SHOP WOMEN",
       "displayMode":"button"
     }
   },
 
-  "link#image__button--shopmen":{
+  "link#image__button--shopmen--desktop":{
     "props":{
-      "blockClass":"home__image--shopmen",
+      "blockClass":"home__image--shopmen--desktop",
       "href": "https://ca.gymshark.com/collections/training-essentials/mens?banner_id=hp-training-essentials-dual-cta2",
       "label": "SHOP MEN",
       "displayMode":"button"

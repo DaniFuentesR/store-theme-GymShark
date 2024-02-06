@@ -1,0 +1,153 @@
+{
+
+    "flex-layout.row#desktop__home__section5-title":{
+        "title": "header home section 6 desktop",
+        "children":[
+            "rich-text#header__section6--desktop"
+        ],
+
+        "props":{
+            "blockClass": "header__section6--desktop"
+        }
+    },
+
+    "flex-layout.row#desktop__home__section-5--images":{
+        "children":[
+            "image#desktop__image1--section-5",
+            "image#desktop__image2--section-5"
+          ],
+  
+          "props":{
+              "blockClass":"desktop__home__images--section5",
+              "fullWidth": true
+          } 
+    },
+
+    "flex-layout.row#desktop__home__section5-text1":{
+        "children": [
+
+            "rich-text#desktop__title1__image--section5",
+            "rich-text#desktop__text1__image--section5",
+            "link#desktop__image__button1--download"
+        ],
+        "props":{
+            "blockClass":"desktop__home__text1--section5"
+        }
+    },
+
+
+    "flex-layout.row#desktop__home__section5-text2":{
+        "children": [
+
+            "rich-text#desktop__title2__image--section5",
+            "rich-text#desktop__text2__image--section5",
+            "link#desktop__image__button2--download"
+
+        ],
+        "props":{
+            "blockClass":"desktop__home__text2--section5"
+        }
+    },
+
+
+
+    //BLOCKS STATEMENTS
+
+        // BLOCK TITLE
+
+        "rich-text#header__section6--desktop":{
+            "title": "title header section 6 desktop",
+
+            "props": {
+                "blockClass": "header__section6--desktop",
+                "text": "The Gymshark Apps"
+            }
+        },
+
+
+        //IMAGES
+
+    "image#desktop__image1--section-5":{
+        "title": "Image1 section 6 desktop",
+
+        "props": {
+                "blockClass": "home__mainimage6--desktop",
+                "src":"https://images.ctfassets.net/wl6q2in9o7k3/5NxdhMjvm7IsQBwhJjrS5w/cfd933a278337ecc6f9fce211c7d772d/E-Comm_App_900x690.jpg?w=1920&q=90&fm=webp"
+
+        }
+    },
+
+    "image#desktop__image2--section-5":{
+        "title": "Image2 section 6 desktop",
+
+        "props": {
+            
+                "blockClass": "home__mainimage62--desktop",
+                "src":"https://images.ctfassets.net/wl6q2in9o7k3/3q9DHwu8CSdOm0jZZUlpCp/c5710b98b02d0738844de3250d081aff/F_Training_App_900x690.jpg?w=1920&q=90&fm=webp"
+              
+        }
+    },
+
+
+        // TEXTS IMAGE 1
+
+
+    "rich-text#desktop__title1__image--section5":{
+        "title": "main text image1 home desktop",
+        "props":{
+          "blockClass":[
+            "home__image1--text"
+          ],
+          "text": "The Gymshark App"
+        }
+    },
+
+    "rich-text#desktop__text1__image--section5":{
+        "title": "secondary text image1 home desktop",
+        "props":{
+          "blockClass":"home__image1--2text",
+          "text": "Shop your fave ’fits on the go and get exclusive drops, class bookings and more. The best of Gymshark anytime, anywhere."
+        }
+    },  
+
+    // TEXT IMAGE 2
+    "rich-text#desktop__title2__image--section5":{
+        "title": "main text image2 home desktop",
+        "props":{
+          "blockClass":[
+            "home__image2--text"
+          ],
+          "text": "The Gymshark Training App"
+        }
+    },
+
+    "rich-text#desktop__text2__image--section5":{
+        "title": "secondary text image2 home desktop",
+        "props":{
+          "blockClass":"home__image2--2text",
+          "text": "From home workouts at your fingertips to an entire library of gym plans, train your way with the Gymshark Training App."
+        }
+    },
+
+    //BUTTONS
+
+    "link#desktop__image__button1--download":{
+        "props":{
+            "blockClass":"home__image1-downloadapp",
+            "href": "https://gymshark.onelink.me/R4DB/webHome1",
+            "label": "DOWNLOAD THE APP",
+            "displayMode":"button"
+          }
+    },
+
+
+    "link#desktop__image__button2--download":{
+        "props":{
+            "blockClass":"home__image2-downloadapp",
+            "href": "https://gymshark.onelink.me/R4DB/webHome1",
+            "label": "DOWNLOAD THE APP",
+            "displayMode":"button"
+          }
+    }
+
+}

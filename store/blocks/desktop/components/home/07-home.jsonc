@@ -1,0 +1,324 @@
+{
+
+    "flex-layout.row#desktop__home__section7":{
+        "children": [
+            
+            "flex-layout.col#desktop__home__section7--womenstrend",
+            "flex-layout.col#desktop__home__section7--womenscollect",
+            "flex-layout.col#desktop__home__section7--menstrend",
+             "flex-layout.col#desktop__home__section7--menscollect"
+        ],
+
+        "props": {
+            "blockClass": "mainContainer__section7--home"
+        }
+    },
+
+
+    "flex-layout.col#desktop__home__section7--womenstrend":{
+        "title": "section 7 Home womens section desktop",
+        "children": [
+            "rich-text#home__section7--title",
+            "link#home__section7--01",
+            "link#home__section7--02",
+            "link#home__section7--03",
+            "link#home__section7--04",
+            "link#home__section7--05"
+        ],
+
+        "props":{
+            "blockClass": "home__womenstrending--section7"
+        }
+    },
+
+    "flex-layout.col#desktop__home__section7--womenscollect":{
+        "title": "section 7 Home womens collection section ",
+        "children": [
+            "rich-text#home__section7-2--title",
+            "link#home__section7-2--01",
+            "link#home__section7-2--02",
+            "link#home__section7-2--03",
+            "link#home__section7-2--04",
+            "link#home__section7-2--05"
+
+        ],
+
+        "props":{
+            "blockClass": "home__womenscollection--section7"
+        }
+    },
+
+    "flex-layout.col#desktop__home__section7--menstrend":{
+        "title": "section 7 Home mens trend section",
+        "children": [
+            "rich-text#home__section7-men--title",
+            "link#home__section7-men--01",
+            "link#home__section7-men--02",
+            "link#home__section7-men--03",
+            "link#home__section7-men--04",
+            "link#home__section7-men--05"
+
+        ],
+
+        "props":{
+            "blockClass": "home__menstrending--section7"
+        }
+    },
+    
+    "flex-layout.col#desktop__home__section7--menscollect":{
+        "title": "section 7 Home mens collection section",
+        "children": [
+            "rich-text#2home__section7-men--title",
+            "link#home__section7-2-men--01",
+            "link#home__section7-2-men--02",
+            "link#home__section7-2-men--03",
+            "link#home__section7-2-men--04",
+            "link#home__section7-2-men--05"
+
+        ],
+
+        "props":{
+            "blockClass": "home__menscollection--section7"
+        }
+    },
+
+    // BLOCKS STATEMENT
+
+    //     WOMEN SECTION 7 TRENDING
+
+        "rich-text#home__section7--title": {
+            "title": "title section 7 women",
+            "props": {
+                "blockClass": "submenu__section7--title",
+                "text": "WOMEN'S TRENDING"
+            }
+        },
+        
+        "link#home__section7--01":{
+            "title": "submenu section 7 women",
+           
+            "props":{
+                "blockClass":"home__link--section7--women",
+                "href": "https://ca.gymshark.com/collections/new-releases/womens",
+                "label": "New Releases"
+              }
+        },
+    
+        "link#home__section7--02":{
+            "title": "submenu2 section 7 women",
+            "props": {
+                "blockClass": "home__link--section7--women",
+                "href":"https://ca.gymshark.com/collections/must-have/womens",
+                "label": "Best Sellers"
+            }
+        },
+    
+        "link#home__section7--03":{
+            "title": "submenu3 section 7 women",
+            "props": {
+                "blockClass": "home__link--section7--women",
+                "href":"https://ca.gymshark.com/collections/matching-sets/womens",
+                "label": "Matching Sets"
+            }
+        },
+    
+        "link#home__section7--04":{
+            "title": "submenu4 section 7 women",
+            "props": {
+                "blockClass": "home__link--section7--women",
+                "href":"https://ca.gymshark.com/collections/valentines-day/womens",
+                "label": "Valentines Day"
+            }
+        },
+    
+        "link#home__section7--05":{
+            "title": "submenu5 section 7 women",
+            "props": {
+                "blockClass": "home__link--section7--women",
+                "href":"https://ca.gymshark.com/collections/valentines-day/womens",
+                "label": "Black Leggings"
+            }
+        },
+
+
+        //  SECTION 7 WOMENS COLLECTIONS
+
+    "rich-text#home__section7-2--title":{
+        "title": "title section 7 women collection",
+        "props": {
+            "blockClass": "submenu__section7--title",
+            "text": "WOMEN'S COLLECTIONS"
+        }
+    },
+
+
+    "link#home__section7-2--01":{
+        "title": "submenu section 7 women collection",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/vital-seamless/womens",
+            "label": "Vital"
+          }
+    }, 
+
+    "link#home__section7-2--02":{
+        "title": "submenu2 section 7 women collection",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/legacy/womens",
+            "label": "Legacy"
+          }
+    },
+
+    "link#home__section7-2--03":{
+        "title": "submenu3 section 7 women collection",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/adapt/womens",
+            "label": "Adapt "
+          }
+    },
+
+    "link#home__section7-2--04":{
+        "title": "submenu4 section 7 women collection",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/sweat/womens",
+            "label": "Sweat"
+          }
+    },
+
+    "link#home__section7-2--05":{
+        "title": "submenu4 section 7 women collection",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/seamless/womens",
+            "label": "Seamless"
+          }
+    },
+
+    // MEN SECTION 7 TREND SECTION
+
+    "rich-text#home__section7-men--title": {
+        "title": "title section 7 men trend",
+        "props": {
+            "blockClass": "submenu__section7--title",
+            "text": "MEN'S TRENDING"
+        }
+    },
+
+    "link#home__section7-men--01": {
+        "title": "submenu section 7 men",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/new-releases/mens",
+            "label": "New Releases"
+          }
+    },
+
+    "link#home__section7-men--02": {
+        "title": "submenu2 section 7 men",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/must-have/mens",
+            "label": "Best Sellers"
+          }
+    },
+
+    "link#home__section7-men--03": {
+        "title": "submenu3 section 7 men",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/valentines-day/mens",
+            "label": "Valentines Day"
+          }
+    },
+
+    "link#home__section7-men--04":{
+        "title": "submenu4 section 7 men",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/oversized/mens",
+            "label": "Oversized"
+          }
+    },
+
+    "link#home__section7-men--05":{
+        "title": "submenu5 section 7 men",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/long-sleeve/mens",
+            "label": "Long Sleeves"
+          }
+    },
+
+    // MEN SECTION 7 COLLECTION SECTION
+
+    "rich-text#2home__section7-men--title": {
+        "title": "title section 7 men trend",
+        "props": {
+            "blockClass": "submenu__section7--title",
+            "text": "MEN'S COLLECTION"
+        }
+    },
+
+    "link#home__section7-2-men--01": {
+        "title": "submenu section 7 men",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/power/mens",
+            "label": "Power"
+          }
+    },
+
+    "link#home__section7-2-men--02": {
+        "title": "submenu2 section 7 men",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/crest/mens",
+            "label": "Crest"
+          }
+    },
+
+    "link#home__section7-2-men--03": {
+        "title": "submenu3 section 7 men",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/graphic-collection/mens",
+            "label": "Graphics"
+          }
+    },
+
+    "link#home__section7-2-men--04":{
+        "title": "submenu4 section 7 men",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/heritage/mens",
+            "label": "Heritage"
+          }
+    },
+
+    "link#home__section7-2-men--05":{
+        "title": "submenu5 section 7 men",
+       
+        "props":{
+            "blockClass":"home__link--section7--women",
+            "href": "https://ca.gymshark.com/collections/legacy/mens",
+            "label": "Legacy"
+          }
+    }
+ }

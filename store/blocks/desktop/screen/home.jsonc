@@ -1,6 +1,81 @@
 {
   "responsive-layout.desktop#home__section-1": {
     "title": "Home Section 1 Desktop",
-    "children": ["flex-layout.row#home__section-1"]
+    "children": [
+      "flex-layout.row#desktop-home__section-1",
+      "flex-layout.row#desktop__home__section1-text",
+      "flex-layout.row#desktop__home__section1-buttons"
+
+
+    ]
+  },
+
+  "responsive-layout.desktop#home__section-2": {
+    "title": "Home Section 2 Desktop",
+    "children":[
+      "flex-layout.row#desktop__home__section-2--info",
+      "flex-layout.row#desktop__home__section-2"
+      
+      
+    ]
+  },
+
+  "responsive-layout.desktop#home__section-3":{
+    "title": "Home Section 3 Desktop",
+    "children": [
+      "flex-layout.row#desktop__home__section-3",
+      "flex-layout.row#desktop__home__section3-text",
+      "flex-layout.row#desktop__home__section3-buttons"
+    ]
+
+  },
+
+  "responsive-layout.desktop#home__section-4":{
+    "title": "Home Section 4 Desktop",
+    "children":[
+      "flex-layout.row#desktop__home__section-4--info",
+      "flex-layout.row#desktop__home__section-4"
+    ]
+  },
+
+  "responsive-layout.desktop#home__section-5":{
+    "title": "Home Section 5 Desktop",
+    "children": [
+      "flex-layout.row#desktop__home__section5-title",
+      "flex-layout.row#desktop__home__section-5--images",
+      "flex-layout.row#desktop__home__section5-text1",
+      "flex-layout.row#desktop__home__section5-text2"
+    ]
+  },
+
+  "responsive-layout.desktop#home__section-6":{
+    "title": "Home Section 6 Desktop",
+    "children": [
+     
+      "flex-layout.row#desktop__home__section-6--images",
+      "flex-layout.row#desktop__home__section6-text1"
+      
+    ]
+  },
+
+  "responsive-layout.desktop#home__section-7":{
+    "title": "Home Section 7 Desktop",
+    "children":[
+      "flex-layout.row#desktop__home__section7"
+
+    ]
+  },
+
+  "responsive-layout.desktop#home__section-8":{
+    "title": "Section 8 home desktop",
+    "children": [
+      "flex-layout.row#desktop__home__section8--info"
+    ]
   }
+
+
+
+
+
+
 }

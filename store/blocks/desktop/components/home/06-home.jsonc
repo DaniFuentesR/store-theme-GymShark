@@ -1,0 +1,102 @@
+{
+    "flex-layout.row#desktop__home__section-6--images":{
+        "children":[
+            "image#desktop__image1--section-6",
+            "image#desktop__image2--section-6",
+            "image#desktop__image3--section-6"
+
+        ],
+        "props":{
+            "blockClass":"desktop__home__images--section5",
+            "fullWidth": true
+        } 
+    },
+
+    //BLOCKS STATEMENTS
+
+     //IMAGES
+
+
+     "image#desktop__image1--section-6":{
+           
+        "title": "image women",
+        "props":{
+           "blockClass":"home__image1__section6--women",
+           "src": "https://images.ctfassets.net/wl6q2in9o7k3/40VyGZ3B2mgb2xObRqb5QF/c1317a357d2f443038cce6d72f20ea40/GY79807_SEO-AO-021_Shop-Womens-INTL_660x840.jpg?w=1920&q=90&fm=webp"
+           }      
+   },
+
+   "image#desktop__image2--section-6":{
+       "title": "image men",
+       "props":{
+           "blockClass":"home__image__section6--men",
+           "src": "https://images.ctfassets.net/wl6q2in9o7k3/4MioWMRmAyKJwWU54jsMqe/744266ed0f8051cb91db30d70154b248/GY79596_SC03_INTL_Web_Banner_Headless_Card_686x900.jpg?w=1920&q=90&fm=webp"
+       } 
+   },
+
+   "image#desktop__image3--section-6":{
+           "title": "image accesories",
+           "props":{
+               "blockClass":"home__image__section7--accesories",
+               "src": "https://images.ctfassets.net/wl6q2in9o7k3/3tvaR1AOZjrjLOaljn6G1Y/db3f829d3b8b3df3f235e4dcff5a071e/accessories_shop_accessories_card.jpg?w=1920&q=90&fm=webp"
+           }
+   },  
+
+    "flex-layout.row#desktop__home__section6-text1":{
+        "children": [
+
+            "link#desktop__image__button1--section6",
+            "link#desktop__image__button2--section6",
+            "link#desktop__image__button3--section6"
+
+        ],
+        "props":{
+            "blockClass":"desktop__home__buttons--section6"
+        }
+    },
+
+    //BUTTONS
+
+    "link#desktop__image__button1--section6":{
+        "props":{
+            "blockClass":"home__button--section7--men",
+            "href": "https://ca.gymshark.com/pages/shop-women",
+            "label": "SHOP WOMEN",
+            "displayMode":"button"
+          }
+    },
+
+
+    "link#desktop__image__button2--section6":{
+        "props":{
+            "blockClass":"home__button--section7--men",
+            "href": "https://ca.gymshark.com/pages/shop-men",
+            "label": "SHOP MEN",
+            "displayMode":"button"
+          }
+    },
+
+
+    "link#desktop__image__button3--section6":{
+        
+            "props":{
+                "blockClass":"home__button--section7--men",
+                "href": "https://ca.gymshark.com/pages/shop-accesories",
+                "label": "SHOP ACCESORIES",
+                "displayMode":"button"
+              }
+        
+    }
+
+    
+
+    
+         
+       
+
+
+
+        
+
+
+}

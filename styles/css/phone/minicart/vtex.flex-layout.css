@@ -1,0 +1,22 @@
+.flexRowContent--minicart__header--items {
+    display: flex;
+    align-items: center;
+}
+
+.flexRow--minicart__header--items:nth-child(2n){
+    width: 0;
+}
+
+
+.flexRowContent--minicart__productlist--colContainer {
+    display: flex;    
+}
+
+.flexCol--minicart__empty--info{
+    display: flex;
+    align-items: center;
+}
+
+.flexRowContent--minicart__header--items:nth-child(2n){
+    width: 0;
+}

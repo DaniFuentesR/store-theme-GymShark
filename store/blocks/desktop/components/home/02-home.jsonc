@@ -1,0 +1,143 @@
+{
+    "flex-layout.row#desktop__home__section-2--info":{
+        "title": "Home Section two desktop, info div",
+        "children": [
+            "rich-text#desktop__home__section2--info",
+            "link#desktop__home__viewall--sectiontwo"
+
+        ],
+
+        "props": {
+            "blockClass": "desktop__home__section2--info"
+
+        }
+    },
+
+
+
+
+    "flex-layout.row#desktop__home__section-2":{
+        "title": "Home Section two, scroll products",
+        "children": [
+            "list-context.product-list#section-2"
+
+        ]   
+    },
+
+    
+    "list-context.product-list#section-2": {
+        
+        "blocks": ["product-summary.shelf#section-2"],
+        "children": ["slider-layout#demo-products"]
+    },
+    
+    "product-summary.shelf#section-2":{
+        "children": [
+            // "stack-layout#prodsum",
+            "product-summary-name",
+            "product-summary-image",
+            "product-rating-inline",
+            "product-summary-space",
+            "product-summary-price",
+            "add-to-cart-button"
+          ]
+    },
+
+    "slider-layout#demo-products": {
+           "props": {
+            "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 1,
+            "phone": 1
+          },
+        //   "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel"
+        },
+           "children": ["rich-text#1", "rich-text#2", "rich-text#3"]
+      },
+
+      "rich-text#1":{
+
+      }, 
+      
+      "rich-text#2":{
+
+      }, 
+      
+      "rich-text#3":{
+
+      },
+
+
+    // "list-context.product-list":{
+    //     "blocks": ["product-summary.shelf"]
+    // },
+
+    // "product-summary.shelf": {
+    //     "children": [
+    //       "product-summary-name",
+    //     //   "product-summary-description",
+    //       "product-summary-image",
+    //       "product-summary-price",
+    //       "product-summary-sku-selector",
+    //       "add-to-cart-button"
+
+    //     ]
+    //   },
+
+    // BLOCKS STATEMENTS 
+
+        
+    //rich-text#desktop__home__section2--info
+
+    "rich-text#desktop__home__section2--info":{
+        "title": "Info section two Dekstop",
+
+        "props": {
+            "blockClass":"desktop__home__section2--richtext",
+            "text": "20% OFF* TRAINING ESSENTIALS"
+        }
+    },
+
+    "link#desktop__home__viewall--sectiontwo": {
+        "title": "link view all",
+        "props":{
+            "blockClass":"desktop__home__viewall--sectiontwo",
+            "href": "https://ca.gymshark.com/collections/training-essentials/womens?banner_id=hp-training-essentials-dual-cta1",
+            "label": "View All"
+        }
+    }
+
+
+    // SLIDER LAYOUT STATEMENT
+
+    // "slider-layout#desktop__home__slider--products":{
+    //     "props": { 
+    //     "itemsPerPage":{
+    //         "desktop": 2,
+    //         "tablet": 1,
+    //         "phone": 1
+    //     },
+    //     "infinite": true,
+    //     "showNavigationArrows": "desktopOnly",
+    //     "showPaginationDots": "always",
+    //     "blockClass": "home__slider",
+    //     "autoplay":{
+    //         "timeout": 3500,
+    //         "stopOnHover": true
+    //     }
+    // },
+    //     "children":[
+    //         "image#home__slider--one"
+    //     ]
+    // },
+
+    // "image#home__slider--one":{
+    // "props":{
+    //     "src":"https://cdn.forbes.com.mx/2021/05/VTEX.jpg"
+    // }
+    // }
+
+
+}
