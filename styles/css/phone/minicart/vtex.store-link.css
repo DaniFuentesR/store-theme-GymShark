@@ -20,6 +20,21 @@
     width: 65vw !important;
 }
 
+@media screen and (min-width: 620px) {
+
+    .buttonLink--minicart__footer__button{
+        background-color: #53565A;
+        color: white;
+        font-size: 14px;
+        font-family: "helvetica";
+        border: #53565A;
+        border-radius: 50px;
+        font-weight: bold;
+        width: 20rem !important;
+    }
+}
+
+
 @media screen and (min-width: 1200px) {
 
     .buttonLink--minicart__footer__button{
