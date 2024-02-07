@@ -1,38 +1,38 @@
 {
-  "responsive-layout.phone#home__section-1": {
-    "title": "Section 1 Phone Home",
+  "responsive-layout.mobile#home__section-1": {
+    "title": "Section 1 mobile Home",
     "children": [
       "flex-layout.row#phone__home__section-1",
       "flex-layout.row#phone__home__section-text"
     ]
   },
 
-  "responsive-layout.phone#home__section-2": {
-    "title": "Section 2 Phone Home",
+  "responsive-layout.mobile#home__section-2": {
+    "title": "Section 2 mobile Home",
     "children": [
       "flex-layout.row#home__section-2--info",
       "flex-layout.row#phone__home__section-2"
     ]
   },
 
-  "responsive-layout.phone#home__section-3": {
-    "title": "Section 3 Phone Home",
+  "responsive-layout.mobile#home__section-3": {
+    "title": "Section 3 mobile Home",
     "children": [
          "flex-layout.row#phone__home__section-3",
          "flex-layout.row#phone__home__section3-text"
     ]
   },
 
-  "responsive-layout.phone#home__section-4": {
-    "title": "Section 4 Phone Home",
+  "responsive-layout.mobile#home__section-4": {
+    "title": "Section 4 mobile Home",
     "children": [
          "flex-layout.row#phone__home__section-4",
          "flex-layout.row#phone__home__section4-text"
     ]
   },
 
-  "responsive-layout.phone#home__section-5": {
-    "title": "Section 5 Phone Home",
+  "responsive-layout.mobile#home__section-5": {
+    "title": "Section 5 mobile Home",
     "children": [
       "flex-layout.row#home__section-5--info",
       // "flex-layout.row#phone__home__section-5"
@@ -40,8 +40,8 @@
     ]
   },
 
-  "responsive-layout.phone#home__section-6": {
-    "title": "Section 6.1 phone home",
+  "responsive-layout.mobile#home__section-6": {
+    "title": "Section 6.1 mobile home",
     "children": [
       "flex-layout.row#phone__home__section6--header-text",
       "flex-layout.row#phone__home__section-6.1",
@@ -54,8 +54,8 @@
     ]
   },
 
-  "responsive-layout.phone#home__section-7":{
-    "title": "Section 7 phone Home",
+  "responsive-layout.mobile#home__section-7":{
+    "title": "Section 7 mobile Home",
     "children": [
       "flex-layout.row#phone__home__section7--women",
       "flex-layout.row#phone__home__section7-womenbutton",
@@ -69,8 +69,8 @@
     ]
   },
 
-  "responsive-layout.phone#home__section-8": {
-    "title": "Section 8 phone Home",
+  "responsive-layout.mobile#home__section-8": {
+    "title": "Section 8 mobile Home",
     "children": [
       "flex-layout.row#phone__home__section8--womenstrend",
       "flex-layout.row#phone__home__section8--womenscollect",
@@ -82,8 +82,8 @@
 
   },
 
-  "responsive-layout.phone#home__section-9": {
-    "title": "Section 9 home phone",
+  "responsive-layout.mobile#home__section-9": {
+    "title": "Section 9 home mobile",
     "children": [
       "flex-layout.row#home__section9--info",
       "flex-layout.row#home__section-9--link"

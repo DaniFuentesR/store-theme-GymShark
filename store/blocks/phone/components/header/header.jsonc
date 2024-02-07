@@ -22,7 +22,7 @@
     "header-row#header__mobile" :{
         "children": [
             "drawer#header__mobile--menu",
-            "search-bar",
+            "icon-search",
             "header-spacer",
             "login",
             "minicart.v2",
@@ -57,6 +57,12 @@
        }
     },
 
+    "icon-search":{
+        "props":{
+            "blockClass": "mobile__header--search--icon"
+        }
+    },
+
     // "search-bar":{
     //     "props": {
     //        "hasIconLeft": true  
@@ -76,7 +82,7 @@
 
     "login":{
         "props": {
-            
+            "blockClass": "mobile__header--login--logo",
             "emailAndPasswordTitle": "LOG-IN",
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "e-mail",

@@ -5,9 +5,22 @@
     background: #f7f4f4;
 }
 
-.deleteIcon{
+.cartIcon{
+    width: 23px;
+    height: 35px;
+}
+
+.searchIcon--mobile__header--search--icon{
+    width: 23px;
+    height: 23px;
+    position: relative;
+    left: 20px;
+    bottom: 2px;
+
+}
+/* .deleteIcon{
     padding: 6px;
     border: 1px solid f7f4f4;
     border-radius: 100px;
     background: #f7f4f4;
-}
+} */

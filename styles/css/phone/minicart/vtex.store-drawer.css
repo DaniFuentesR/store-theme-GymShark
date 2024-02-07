@@ -1,5 +1,5 @@
 .closeIconButton--minicart__header--closeIcon{
     position: relative;
     left: 50px;
-    width: 10px;
+    width: max-content !important;
 }

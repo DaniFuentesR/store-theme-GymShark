@@ -15,12 +15,14 @@
     border: 1px solid #f7f4f4;
     border-radius: 100px;
     background: #f7f4f4;
-    color: black;
+    color: black !important;
+    width: 28px;
+    height: 28px;
 }
 
 .productName{
     font-weight: 200;
-    font-size: 14px;
+    font-size: 1.1rem;
     color: black;
     font-family: "helvetica";
 }
@@ -28,7 +30,7 @@
 .productBrandName{
     font-weight: 100;
     color: #53565a;
-    font-size: 10px;
+    font-size: 1rem;
     font-family: "helvetica";
 
 }

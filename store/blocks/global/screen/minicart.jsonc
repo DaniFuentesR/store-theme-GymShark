@@ -1,0 +1,143 @@
+{
+    "minicart.v2":{
+        "props":{
+            "blockClass": "minicart-icon",
+            "MinicartIcon":  "icon-cart",
+            "itemCountMode": "total",
+            "quantityDisplay": "always"
+            
+        },
+        "children": [
+            "flex-layout.row#minicart--header",
+            "minicart-base-content"
+        ]
+    },
+
+    "minicart-base-content":{
+        "blocks":[
+            "minicart-empty-state"
+        ],
+
+        "children":[
+            "minicart-product-list",
+            "flex-layout.row#minicart__summary",
+            "flex-layout.row#minicart__footer--buttons"
+        ]
+    },
+
+    "flex-layout.row#minicart--header":{
+        "children":[
+            "rich-text#minicart--header",
+            "drawer-close-button"
+
+            
+        ],
+
+        "props":{
+            "blockClass": "minicart__header--items"
+        }
+    },
+
+
+
+    "minicart-empty-state":{
+        "children":[
+            "flex-layout.row#minicart-empty"
+        ]
+    },
+
+    "flex-layout.row#minicart-empty":{
+        "children":[
+            "flex-layout.col#minicart-empty"
+        ],
+        "props":{
+            "blockClass": "minicart__empty--infoContainer"
+        }
+    },
+
+    "flex-layout.col#minicart-empty":{
+        "children":[
+            "image#minicart__empty--image",
+            "rich-text#minicart__empty--text1",
+            "rich-text#minicart__empty--text2",
+            "link#minicart__button--shopmen",
+            "link#minicart__button--shopwomen"
+
+        ],
+
+        "props":{
+            "blockClass": "minicart__empty--info"
+        }
+    },
+
+    "image#minicart__empty--image":{
+        "props":{
+            "src": "https://ca.gymshark.com/images/empty-bag.svg",
+            "size": 40,
+            "blockClass": "minicart__empty--image"
+        }
+    },
+
+    "rich-text#minicart__empty--text1":{
+        "props":{
+            "text": "YOUR BAG IS EMPTY",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "minicart__empty--text1"
+        }
+    },
+
+    "rich-text#minicart__empty--text2":{
+        "props":{
+            "text": "There are no products in your bag",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "minicart__empty--text2"
+        }
+    },
+
+    "rich-text#minicart--header":{
+        "props":{
+            "text": "YOUR BAG",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "minicart__header--text"
+        }
+    },
+
+    "drawer-close-button":{
+        "props":{
+            "blockClass": "minicart__header--closeIcon"
+        }
+    },
+
+
+    "link#minicart__button--shopwomen":{
+        "props":{
+          "blockClass":"minicart__image--button",
+          "href": "https://ca.gymshark.com/collections/training-essentials/womens?banner_id=hp-training-essentials-dual-cta1",
+          "label": "SHOP WOMENS",
+          "displayMode":"button"
+        }
+      },
+    
+      "link#minicart__button--shopmen":{
+        "props":{
+          "blockClass":"minicart__image--button",
+          "href": "https://ca.gymshark.com/collections/training-essentials/mens?banner_id=hp-training-essentials-dual-cta2",
+          "label": "SHOP MENS",
+          "displayMode":"button"
+        }
+      },
+
+      "minicart-product-list":{
+        "blocks":[
+            "product-list#minicart--mobile"
+            // "product-list#minicart--desktop"
+        ],
+
+        "props":{
+            "blockClass": "minicart__productlist--container"
+        }
+    }
+}
