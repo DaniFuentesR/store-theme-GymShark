@@ -1,0 +1,52 @@
+.nameContainer{
+    padding-top: 10px;
+}
+
+.priceContainer{
+    display: flex;
+    align-items: start;
+}
+
+.containerNormal--desktop__search-results{
+    width: fit-content;
+}
+
+/* .imageContainer{
+    height: 22rem;
+    
+} */
+
+.imageStackContainer{
+    height: 28rem;
+}
+
+.imageNormal{
+    height: 100% !important; 
+    object-fit: cover;
+    max-height: none;
+}
+
+.productPriceClass--product__price--container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sellingPrice--product__price--container{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    font-family: "helvetica";
+}
+
+.brandName{
+    font-family: "helvetica";
+}
+
+.wishlistIconContainer--wishList__icon--heart{
+    
+        width: fit-content;
+        position: relative;
+        left: 190px;
+        top: 45px;
+        z-index: 1;
+    
+}

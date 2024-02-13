@@ -1,0 +1,15 @@
+.filterMessage{
+    font-size: 1.2rem;
+    font-family: "Helvetica";
+    font-weight: bold;
+}
+
+.filterTitle{
+    font-size: 1.2rem;
+    font-family: "Helvetica";
+    font-weight: bold;
+}
+
+.galleryItem--normal{
+    height: 45rem;
+}

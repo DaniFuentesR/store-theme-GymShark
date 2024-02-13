@@ -1,0 +1,13 @@
+.flexRowContent--product__name-rating{
+    display: flex;
+    align-items: baseline;
+    height: 4.2rem;
+}
+
+.flexRowContent--product__name-rating .stretchChildrenWidth{
+    :global(.vtex-reviews-and-ratings){
+        color: black;
+        font-size: 0.8rem;
+    }
+}
+

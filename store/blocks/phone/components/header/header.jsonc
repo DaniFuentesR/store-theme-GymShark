@@ -22,7 +22,7 @@
     "header-row#header__mobile" :{
         "children": [
             "drawer#header__mobile--menu",
-            "icon-search",
+            "search-bar",
             "header-spacer",
             "login",
             "minicart.v2",
@@ -65,7 +65,8 @@
 
     // "search-bar":{
     //     "props": {
-    //        "hasIconLeft": true  
+
+    //         "icon-search"
     //     }
     // },
 

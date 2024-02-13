@@ -73,6 +73,7 @@
             "header-force-center#header__bottom--desktop",
             "header-spacer",
             "search-bar",
+            "add-to-list-btn",
             "login#header__bottom--login",
             "minicart.v2"
         ],
