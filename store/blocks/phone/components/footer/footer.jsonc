@@ -797,7 +797,7 @@
             "type": "custom",
             "itemProps":{
                 "type": "external",
-                "href": "/",
+                "href": "https://danielfuentesri--itglobers.myvtex.com/about-us",
                 "tagTitle": "aboutus",
                 "text": "About us"
             }

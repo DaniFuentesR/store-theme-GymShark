@@ -13,3 +13,9 @@
 .galleryItem--normal{
     height: 45rem;
 }
+
+@media screen and (max-width: 620px){
+    .galleryItem--normal{
+        height: 35rem;
+    }
+}

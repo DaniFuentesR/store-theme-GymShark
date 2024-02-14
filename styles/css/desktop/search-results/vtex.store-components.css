@@ -4,14 +4,6 @@
 
 .discountInsideContainer{
     z-index: 0;
+    background: white;
 }
 
-/* .productPriceClass--product__price--container{
-    display: flex;
-    flex-direction: row-reverse;
-} */
-
-.sellingPrice--product__price--container{
-    font-size: 1.1rem;
-    font-weight: bold;
-}

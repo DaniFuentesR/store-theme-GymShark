@@ -1,5 +1,5 @@
 .flexRowContent--footer__desktop--infosection{
-    
+    border-top: 1px solid #e7e7e7;
     padding: 30px 33px;
     gap: 20px;
 }
