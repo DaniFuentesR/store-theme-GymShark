@@ -1,0 +1,261 @@
+{
+    "responsive-layout.phone#phone__pdp":{
+        "children": [
+            "flex-layout.row#phone__product--info"
+        ]
+    },
+
+    "flex-layout.row#phone__product--info":{
+        "title": "Información general de PDP",
+        "children":[
+            "flex-layout.col#phone__product--image",
+            "flex-layout.col#phone__product--data",
+            "flex-layout.row#phone__product--rating",
+            "flex-layout.col#phone__product--skuSelector",
+            "flex-layout.row#phone__product--button",
+            "flex-layout.col#phone__product--description"
+            // "shelf#relatedProducts"
+        ],
+
+        "props":{
+            "blockClass": "phone__product--info"
+        }
+    },
+
+    "flex-layout.col#phone__product--image":{
+        "title": "Imagenes de Producto",
+        "children":[
+            "product-images"
+        ],
+
+        "props":{
+            "blockClass": "phone__product--image"
+        }
+    },
+
+    "product-images":{
+        "props":{
+            "displayThumbnailsArrows": false,
+            "blockClass": "phone__imageProduct"
+        }
+    },
+
+
+    "flex-layout.col#phone__product--data":{
+        "title": "Data del producto",
+        "children":[
+            "vtex.store-components:product-name",
+            "vtex.store-components:product-brand",
+            "product-price"
+        ],
+
+        "props":{
+            "blockClass": "phone__product--data"
+        }
+    },
+
+    "product-price":{
+      "props":{
+        "showListPrice": false
+      }  
+    },
+
+
+
+    "flex-layout.row#phone__product--rating":{
+        "children":[
+            "product-rating-inline",
+            "add-to-list-btn",
+            "share"
+
+        ],
+
+        "props":{
+            "blockClass": "phone__product--rating"
+        }
+    },
+
+   
+
+
+    "flex-layout.col#phone__product--skuSelector":{
+        "children":[
+           "sku-selector" 
+        ],
+
+        "props":{
+            "blockClass": "phone__product--skuSelector"
+        }
+
+        
+    },
+
+    "flex-layout.row#phone__product--button":{
+        "children":[
+            "add-to-cart-button"
+        ],
+
+        "props":{
+            "blockClass": "phone__product--button"
+        }
+    },
+
+    "add-to-cart-button":{
+        "props":{
+            "text": "ADD TO CART"
+        }
+    },
+
+
+
+    "flex-layout.col#phone__product--description":{
+        "children":[
+        "modal-trigger#phone__product--description",
+        "modal-trigger#phone__product--returns"
+
+        ],
+
+        "props":{
+            "blockClass": "phone__product--description"
+        }
+    },
+
+    "modal-trigger#phone__product--description":{
+        "children":[
+            "rich-text#phone__product--description",
+            "modal-layout#phone__product--description"
+
+        ],
+
+        "props":{
+            "blockClass": "product--description--modal"
+        }
+    },
+
+    "modal-trigger#phone__product--returns":{
+        "children":[
+
+            "rich-text#phone__product--returns",
+            "modal-layout#phone__product--returns"
+
+        ]
+    },
+
+   
+
+    "rich-text#phone__product--description":{
+        "props":{
+            "text": "DESCRIPTION",
+            "textAlignment": "LEFT",
+            "blockClass": "phone__product--description"
+        }
+    },
+
+    "modal-layout#phone__product--description":{
+        "children":[
+            "modal-header",
+            "product-description"
+        ],
+        "props":{
+            "blockClass": "description--modal--container"
+        }
+    },
+
+    "modal-header#description":{
+        "children":[
+            "rich-text#modal__header--text"
+        ]
+    },
+
+    "rich-text#modal__header--text":{
+        "props":{
+            "text": "DESCRIPTION",
+            "textAlignment": "CENTER",
+            "blockClass": "modal__header--text"
+        }
+    },
+
+
+
+    // RETURNS ---------- 
+
+    "rich-text#phone__product--returns":{
+        "props":{
+            "text": "DELIVERY & RETURNS",
+            "textAlignment": "LEFT",
+            "blockClass": "phone__product--returns"
+        }
+    },
+
+    "modal-layout#phone__product--returns":{
+        "children":[
+            "modal-header#returns",
+            "product-specifications"
+        ],
+        "props":{
+            "blockClass": "returns--modal--container"
+        }
+    },
+
+    "modal-header#returns":{
+        "children":[
+            "rich-text#modal__header--textReturns"
+        ]
+    },
+
+    "rich-text#modal__header--textReturns":{
+        "props":{
+            "text": "DELIVERY & RETURNS",
+            "textAlignment": "CENTER",
+            "blockClass": "modal__header--text"
+        }
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    // "shelf#relatedProducts":{
+
+    //     "blocks": ["shelf.relatedProducts#phone__productDetail"],
+    //     "props":{
+    //         "maxItems": 7,
+    //         "scroll": "BY_PAGE",
+    //         "blockClass": "desktop__summaryShelf--products"
+
+    //     }
+    // },
+
+    // "shelf.relatedProducts#phone__productDetail":{
+    //     "props": {
+    //         "recommendation": "view",
+    //         "productList": {
+    //             "titleText": "Who saw also saw",
+    //             "itemsPerPage": 3
+    //         }
+    //     }
+    // }
+
+
+
+
+
+
+
+
+
+
+    
+}

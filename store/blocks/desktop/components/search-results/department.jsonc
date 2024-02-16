@@ -1,22 +1,27 @@
 {
-   
+  
     "search-result-layout.desktop#desktop__department":{
         "children":[
             
-            "flex-layout.row#category__results"
+            "responsive-layout.desktop#desktop__department"
         ]
     },
 
-  
-
-    "flex-layout.row#category__results":{
+    "responsive-layout.desktop#desktop__department":{
         "children":[
-            "flex-layout.col#category__results--filter",
-            "flex-layout.col#category__results--content"
+            "flex-layout.row#desktop__category--results"
+        ]
+    },
+    
+
+    "flex-layout.row#desktop__category--results":{
+        "children":[
+            "flex-layout.col#desktop__categoryResults--filter",
+            "flex-layout.col#desktop__categoryResults--content"
         ]
     },
 
-    "flex-layout.col#category__results--filter":{
+    "flex-layout.col#desktop__categoryResults--filter":{
         "children":[
             "filter-navigator.v3"
         ],
@@ -27,23 +32,23 @@
         }
     },
 
-    "flex-layout.col#category__results--content":{
+    "flex-layout.col#desktop__categoryResults--content":{
         "children":[
-            "search-content#results__content--products"
+            "search-content#desktop__results__content--products"
         ],
         "props":{
             "width": "80%"
         }
     },
 
-    "search-content#results__content--products":{
+    "search-content#desktop__results__content--products":{
         "blocks":[
-            "gallery#department",
+            "gallery#desktop__department",
             "not-found"
         ]
     },
 
-    "gallery#department":{
+    "gallery#desktop__department":{
         "props":{
             "layouts":[
                 {
@@ -57,12 +62,12 @@
                 }
             ],
 
-            "GeneralGrid": "product-summary.shelf"
+            "GeneralGrid": "product-summary.shelf#desktop"
         }
     },
 
 
-    "product-summary.shelf":{
+    "product-summary.shelf#desktop":{
         "children":[
             "flex-layout.row#searchResult__imageWishlist--container",
             "flex-layout.row#product__name-rating",
@@ -75,6 +80,9 @@
             "blockClass": "desktop__search-results"
           }
     },
+
+   
+
 
     "filter-navigator.v3":{
         "props":{
@@ -143,6 +151,7 @@
 
     "product-summary-price":{
         "props":{
+            "showDiscountValue": false,
             "blockClass": "phone__productPrice--container"
         }
     },

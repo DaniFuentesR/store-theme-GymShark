@@ -14,19 +14,17 @@
     },
 
     "flex-layout.row#desktop__home__section-4":{
-        "title": "Home Section fourth, scroll products",
+        "title": "Home Section two, scroll products",
         "children": [
             "shelf#desktop__summaryProducts--home"
-        ]   
+        ],
+        
+        "props":{
+            "blockClass": "desktop__summaryShelf--container"
+          }
     },
 
-    "shelf#desktop__summaryProducts--home":{
-        "blocks": ["product-summary.shelf"],
-        "props":{
-            "maxItems": 7,
-            "scroll": "BY_PAGE"
-        }
-    },
+   
 
 
 
@@ -34,16 +32,16 @@
     //     "blocks": ["product-summary.shelf"]
     // },
 
-    "product-summary.shelf": {
-        "children": [
-          "product-summary-name",
-        //   "product-summary-description",
-          "product-summary-image",
-          "product-summary-price",
-          "product-summary-sku-selector",
-          "product-summary-add-to-cart-button"
-        ]
-      },
+    // "product-summary.shelf": {
+    //     "children": [
+    //       "product-summary-name",
+    //     //   "product-summary-description",
+    //       "product-summary-image",
+    //       "product-summary-price",
+    //       "product-summary-sku-selector",
+    //       "product-summary-add-to-cart-button"
+    //     ]
+    //   },
 
     //BLOCKS STATEMENTS
 
@@ -66,36 +64,7 @@
             "label": "View All"
         }
     }
-
-    // "slider-layout#desktop__home4__slider--products":{
-    //     "props": { 
-    //         "itemsPerPage":{
-    //             "desktop": 2,
-    //             "tablet": 1,
-    //             "phone": 1
-    //         },
-    //         "infinite": true,
-    //         "showNavigationArrows": "desktopOnly",
-    //         "showPaginationDots": "always",
-    //         "blockClass": "home__slider",
-    //         "autoplay":{
-    //             "timeout": 3500,
-    //             "stopOnHover": true
-    //         }
-    //     },
-    //         "children":[
-    //             "image#home4__slider--one"
-    //         ]
-    //     },
-
-    //     "image#home4__slider--one":{
-    //         "props":{
-    //             "src":"https://cdn.forbes.com.mx/2021/05/VTEX.jpg"
-    //         }
-    //     }
     
-
-
 
 }
 

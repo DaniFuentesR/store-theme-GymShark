@@ -1,0 +1,7 @@
+.container--desktop__summaryShelf--products{
+    padding: 0 2rem;
+}
+
+.sliderContainer--desktop__summaryShelf--products .sliderFrame{
+    gap: 1rem;
+}

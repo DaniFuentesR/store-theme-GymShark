@@ -14,7 +14,7 @@
     "title": "Home Section 2 Desktop",
     "children":[
       "flex-layout.row#desktop__home__section-2--info",
-      "flex-layout.row#desktop__home__section-2"
+       "flex-layout.row#desktop__home__section-2"
       
       
     ]

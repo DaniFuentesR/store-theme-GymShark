@@ -1,0 +1,58 @@
+.flexCol--phone__product--data{
+    padding-top: 5rem;
+}
+
+.flexColChild--phone__product--data{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.7rem;
+}
+
+.flexRowContent--phone__product--rating{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 2.5rem 0;
+}
+
+.flexRowContent--phone__product--rating .wishlistIconContainer--wishList__icon--heart{
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--phone__product--rating{
+    :global(.vtex-reviews-and-ratings){
+
+        color: black;
+    }
+}
+
+.flexRowContent--phone__product--rating .stretchChildrenWidth{
+    width: fit-content !important;
+}
+
+.flexRowContent--phone__product--button{
+    :global(.vtex-button){
+        background: black;
+        border-color: black;
+        border-radius: 2.3rem;
+    }
+}
+
+.flexRowContent--phone__product--button {
+
+    :global(.buttonDataContainer){
+        font-size: 0.8rem;
+        font-weight: 900;
+    }
+}
+
+.flexRow--phone__product--button{
+    margin-bottom: 2rem;
+}
+
+.flexCol--phone__product--description{
+    border-top: 1px solid #e7e7e7;
+    padding: 2rem 1rem;
+}

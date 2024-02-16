@@ -8,12 +8,12 @@
 
     "responsive-layout.phone#phone__department":{
         "children":[
-            "flex-layout.row#category__results"
+            "flex-layout.row#phone__category--results"
 
         ]
     },
 
-    "flex-layout.row#category__results":{
+    "flex-layout.row#phone__category--results":{
         "children":[
             "flex-layout.col#category__results--filter",
             "flex-layout.col#category__results--content"
@@ -61,12 +61,12 @@
                 }
             ],
 
-            "GeneralGrid": "product-summary.shelf"
+            "GeneralGrid": "product-summary.shelf#mobile"
         }
     },
 
 
-    "product-summary.shelf":{
+    "product-summary.shelf#mobile":{
         "children":[
             "flex-layout.row#searchResult__imageWishlist--container",
             "flex-layout.row#rating-inline",

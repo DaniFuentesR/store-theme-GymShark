@@ -9,8 +9,6 @@
     "flex-layout.row#about-us":{
         "children":[
             "flex-layout.col#phone__firstSection--about-us"
-            //  "rich-text#followUs__textImage"
-
 
         ],
 
