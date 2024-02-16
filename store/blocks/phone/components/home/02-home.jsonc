@@ -17,9 +17,44 @@
     "flex-layout.row#phone__home__section-2": {
         "title": "Section two, scroll products",
         "children": [
-            "slider-layout#home__slider--products"
-        ]      
+            "list-context.product-list#section-2"
+            
+        ]
+        
     },
+
+    "list-context.product-list#section-2": {
+        
+        "blocks": ["product-summary.shelf#section-2"],
+        "children": ["slider-layout#demo-products"]
+    },
+
+    "product-summary.shelf#section-2":{
+        "children": [
+            // "stack-layout#prodsum",
+            "product-summary-name",
+            "product-summary-image",
+            "product-rating-inline",
+            "product-summary-space",
+            "product-summary-price",
+            "add-to-cart-button"
+          ]
+    },
+
+    "slider-layout#demo-products": {
+           "props": {
+            "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 2,
+            "phone": 2
+          },
+        //   "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel"
+        }
+
+    },
+   
 
    
 
@@ -42,36 +77,36 @@
             "href": "https://ca.gymshark.com/collections/training-essentials/womens?banner_id=hp-training-essentials-dual-cta1",
             "label": "View All"
         }
-    },
+    }
 
 
     // ---------------- Declaración de "slider-layout#home__slider--products" --------------------
 
-    "slider-layout#home__slider--products": {
-       "props": { 
-        "itemsPerPage":{
-            "desktop": 2,
-            "tablet": 1,
-            "phone": 1
-        },
-        "infinite": true,
-        "showNavigationArrows": "desktopOnly",
-        "showPaginationDots": "always",
-        "blockClass": "home__slider",
-        "autoplay":{
-            "timeout": 3500,
-            "stopOnHover": true
-        }
-    },
-        "children":[
-            "image#home__slider--one"
-        ]
-    },
+//     "slider-layout#home__slider--products": {
+//        "props": { 
+//         "itemsPerPage":{
+//             "desktop": 2,
+//             "tablet": 1,
+//             "phone": 1
+//         },
+//         "infinite": true,
+//         "showNavigationArrows": "desktopOnly",
+//         "showPaginationDots": "always",
+//         "blockClass": "home__slider",
+//         "autoplay":{
+//             "timeout": 3500,
+//             "stopOnHover": true
+//         }
+//     },
+//         "children":[
+//             "image#home__slider--one"
+//         ]
+//     },
 
-    "image#home__slider--one":{
-    "props":{
-        "src":"https://cdn.forbes.com.mx/2021/05/VTEX.jpg"
-    }
-}
+//     "image#home__slider--one":{
+//     "props":{
+//         "src":"https://cdn.forbes.com.mx/2021/05/VTEX.jpg"
+//     }
+// }
 
 }

@@ -1,0 +1,62 @@
+.paragraph--firstBodyText__about-us{
+    margin-bottom: 1.6rem;
+}
+
+.headingLevel3--firstBodyText__about-us{
+    margin: 0 0 0.8rem 0 ;
+}
+
+.headingLevel3--secondBodyText__about-us{
+    margin: 0 0 0.8rem 0 ;
+}
+
+.headingLevel3--thirdBodyText__about-us{
+    margin: 0 0 0.8rem 0 ;
+}
+
+.paragraph--secondBodyText__about-us{
+    margin-bottom: 1rem;
+}
+
+.headingLevel5--secondBodyText__about-us{
+    font-weight: 900;
+    margin-bottom: 0;
+    font-family: "Helvetica";
+    font-size: 1rem;
+    color: #444444;
+}
+
+.headingLevel3--secondBodyText__about-us{
+    font-weight: 900;
+    font-family: "Helvetica";
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.headingLevel3--firstBodyText__about-us{
+    font-weight: 900;
+    font-family: "Helvetica";
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.headingLevel3--thirdBodyText__about-us{
+    font-weight: 900;
+    font-family: "Helvetica";
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.strong--thirdBodyText__about-us{
+    color: #000000;
+}
+
+.link--thirdBodyText__about-us{
+    color: #000000;
+}
+
+.headingLevel6--thirdBodyText__about-us{
+    font-size: 1rem;
+    margin: 1rem 0 0 0;
+    font-family: "helvetica";
+}

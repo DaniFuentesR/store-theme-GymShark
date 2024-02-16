@@ -1,0 +1,42 @@
+.nameContainer--phone__nameProduct--container{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.3rem 0;
+}
+
+.priceContainer--phone__productPrice--container{
+    padding: 0.3rem 0;
+
+}
+
+.productPriceClass--phone__productPrice--container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sellingPrice--phone__productPrice--container{
+    font-size: 1rem;
+    font-family: "helvetica";
+    font-weight: bolder;
+}
+
+.productBrand--phone__nameProduct--container{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.element--phone__search-results{
+    :global(.vtex-button){
+        border-color: #e7e7e7;
+        border-radius: 2rem;
+        background: #e7e7e7;
+        }
+
+        :global(.vtex-button__label){
+            background: #e7e7e7;
+            color: black;
+            border-radius: 2rem;
+        }
+}

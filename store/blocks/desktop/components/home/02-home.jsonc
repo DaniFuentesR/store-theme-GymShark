@@ -1,0 +1,113 @@
+{
+    "flex-layout.row#desktop__home__section-2--info":{
+        "title": "Home Section two desktop, info div",
+        "children": [
+            "rich-text#desktop__home__section2--info",
+            "link#desktop__home__viewall--sectiontwo"
+
+        ],
+
+        "props": {
+            "blockClass": "desktop__home__section2--info"
+
+        }
+    },
+
+
+
+
+    "flex-layout.row#desktop__home__section-2":{
+        "title": "Home Section two, scroll products",
+        "children": [
+            "shelf#desktop__summaryProducts--home"
+        ],
+        
+        "props":{
+            "blockClass": "desktop__summaryShelf--container"
+          }
+    },
+
+    "shelf#desktop__summaryProducts--home":{
+        "blocks": ["product-summary.shelf#desktop__home-section"],
+        "props":{
+            "maxItems": 7,
+            "scroll": "BY_PAGE",
+            "blockClass": "desktop__summaryShelf--products"
+
+        }
+
+        
+    },
+    
+    "product-summary.shelf#desktop__home-section":{
+        "children": [
+            "add-to-list-btn",
+            "product-summary-image",
+            "product-summary-name",
+            "product-rating-inline",
+            // "product-summary-sku-selector",
+            "product-summary-price",
+            "add-to-cart-button"
+          ],
+
+          "props":{
+            "blockClass": "desktop__search-results"
+          }
+    },
+
+
+    // BLOCKS STATEMENTS 
+
+        
+    //rich-text#desktop__home__section2--info
+
+    "rich-text#desktop__home__section2--info":{
+        "title": "Info section two Dekstop",
+
+        "props": {
+            "blockClass":"desktop__home__section2--richtext",
+            "text": "20% OFF* TRAINING ESSENTIALS"
+        }
+    },
+
+    "link#desktop__home__viewall--sectiontwo": {
+        "title": "link view all",
+        "props":{
+            "blockClass":"desktop__home__viewall--sectiontwo",
+            "href": "https://ca.gymshark.com/collections/training-essentials/womens?banner_id=hp-training-essentials-dual-cta1",
+            "label": "View All"
+        }
+    }
+
+
+    // SLIDER LAYOUT STATEMENT
+
+    // "slider-layout#desktop__home__slider--products":{
+    //     "props": { 
+    //     "itemsPerPage":{
+    //         "desktop": 2,
+    //         "tablet": 1,
+    //         "phone": 1
+    //     },
+    //     "infinite": true,
+    //     "showNavigationArrows": "desktopOnly",
+    //     "showPaginationDots": "always",
+    //     "blockClass": "home__slider",
+    //     "autoplay":{
+    //         "timeout": 3500,
+    //         "stopOnHover": true
+    //     }
+    // },
+    //     "children":[
+    //         "image#home__slider--one"
+    //     ]
+    // },
+
+    // "image#home__slider--one":{
+    // "props":{
+    //     "src":"https://cdn.forbes.com.mx/2021/05/VTEX.jpg"
+    // }
+    // }
+
+
+}

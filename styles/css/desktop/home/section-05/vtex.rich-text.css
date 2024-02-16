@@ -1,0 +1,50 @@
+.wrapper--header__section6--desktop{
+    font-family: "Helvetica";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+.wrapper--home__image1--text{
+    font-size: 24px;
+    color: white;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "helvetica";
+}
+
+.wrapper--home__image2--text{
+    font-size: 21px;
+    color: white;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "helvetica";
+
+}
+
+.wrapper--home__image1--2text{
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "helvetica";
+    padding: 8px 0;
+    
+
+}
+
+.wrapper--home__image2--2text{
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "helvetica";
+    padding: 8px 0;
+    background: linear-gradient(180deg,transparent 0, rgb(25, 25, 25) 190.28%);
+
+}

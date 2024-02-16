@@ -1,0 +1,33 @@
+.flexRow--desktop__about-us--firstSection{
+    padding: 8rem 4rem;
+    margin: 0 60px;
+}
+
+.flexRowContent--desktop__about-us--firstSection{
+    gap: 6rem;
+}
+
+.flexRowContent--desktop__about-us--firstSection .stretchChildrenWidth{
+    height: 50%;
+    width: 50%;
+}
+
+
+.flexRow--desktop__about-us--secondSection{
+    padding: 8rem 4rem;
+    margin: 0 60px;
+}
+
+.flexRowContent--desktop__about-us--secondSection{
+    gap: 6rem;
+}
+
+
+.flexRow--desktop__about-us--thirdSection{
+    padding: 8rem 4rem;
+    margin: 0 60px;
+}
+
+.flexRowContent--desktop__about-us--thirdSection{
+    gap: 6rem;
+}

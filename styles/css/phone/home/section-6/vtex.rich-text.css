@@ -15,7 +15,7 @@
     margin-bottom: 16px;
     text-transform: uppercase;
     background: linear-gradient(180deg,transparent 0,#bfbdbd 90.28%);
-    width: 400px;
+    width: 90%;
     padding-left: 10px;
     
 }
@@ -27,7 +27,7 @@
     font-size: 16px;
     margin-bottom: 24px;
     background: linear-gradient(-180deg,transparent 0,#454545 90.28%);
-    width: 400px;
+    width: 97%;
     border-radius: 10px;
     padding-right: 10px;
 
@@ -50,5 +50,7 @@
     font-size: 16px;
     margin-bottom: 24px;
     padding-left: 16px;
+    background: linear-gradient(-180deg,transparent 0,#454545 90.28%);
+    width: 90%;
 
 }

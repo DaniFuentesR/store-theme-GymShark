@@ -1,4 +1,4 @@
-.closeIconContainer{
+.closeIconContainer--heder__mobile--menu{
     display: flex;
     justify-items: end;
 }

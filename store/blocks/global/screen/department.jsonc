@@ -1,0 +1,30 @@
+{
+    "store.search#department":{
+        "blocks":[
+            "search-result-layout#department"
+
+        ],
+
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                "simulationBehavior": "default"
+            }
+        }
+    },
+
+    "search-result-layout#department":{
+        "blocks":[
+            "search-result-layout.desktop#desktop__department",
+            "search-result-layout.mobile#mobile__department",
+            "search-not-found-layout"
+        ]
+    },
+
+    "rich-text#department__title":{
+        "props":{
+            "text": "# Estamos en una pagna de department"
+        }
+    }
+
+}

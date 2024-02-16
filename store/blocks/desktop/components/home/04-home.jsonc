@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#desktop__home__section-4--info":{
+        "title": "Home Section two desktop, info div",
+        "children": [
+            "rich-text#desktop__home__section4--info",
+            "link#desktop__home__viewall--sectiontwo"
+
+        ],
+
+        "props": {
+            "blockClass": "desktop__home__section2--info"
+
+        }
+    },
+
+    "flex-layout.row#desktop__home__section-4":{
+        "title": "Home Section two, scroll products",
+        "children": [
+            "shelf#desktop__summaryProducts--home"
+        ],
+        
+        "props":{
+            "blockClass": "desktop__summaryShelf--container"
+          }
+    },
+
+   
+
+
+
+    // "list-context.product-list":{
+    //     "blocks": ["product-summary.shelf"]
+    // },
+
+    // "product-summary.shelf": {
+    //     "children": [
+    //       "product-summary-name",
+    //     //   "product-summary-description",
+    //       "product-summary-image",
+    //       "product-summary-price",
+    //       "product-summary-sku-selector",
+    //       "product-summary-add-to-cart-button"
+    //     ]
+    //   },
+
+    //BLOCKS STATEMENTS
+
+        //rich-text#desktop__home__section4--info
+
+    "rich-text#desktop__home__section4--info":{
+        "title": "Info section fourth Dekstop",
+
+        "props": {
+            "blockClass":"desktop__home__section2--richtext",
+            "text": "SHOP THE SET FOR 50% OFF"
+        }
+    },
+
+    "link#desktop__home__viewall--sectiontwo":{
+        "title": "link view all",
+        "props":{
+            "blockClass":"desktop__home__viewall--sectiontwo",
+            "href": "https://ca.gymshark.com/collections/training-essentials/womens?banner_id=hp-training-essentials-dual-cta1",
+            "label": "View All"
+        }
+    }
+    
+
+}
+
+
+
+

@@ -1,4 +1,6 @@
-/* Example Phone:
-.flexCol--footer__main--column2{
-    padding-bottom: 80px;
-} */
+.socialNetworksContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}

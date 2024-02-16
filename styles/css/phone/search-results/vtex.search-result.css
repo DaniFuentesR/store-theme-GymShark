@@ -1,0 +1,27 @@
+.filtersWrapperMobile--phone--filter{
+    padding: 1rem 0;
+}
+
+.filterPopupButton{
+    display: flex;
+    background: #e7e7e7;
+    flex-direction: row-reverse;
+    border-radius: 2.5rem;
+    width: 24rem;
+}
+
+.filterPopupTitle--phone--filter{
+    margin-left: 1rem;
+    color: black;
+    font-weight: 900;
+    font-size: 1rem;
+    font-family: "Helvetica";
+}
+
+.filterPopupArrowIcon--phone--filter{
+    margin-left: 0;
+    color: black;
+    font-weight: 900;
+    font-size: 1rem;
+}
+

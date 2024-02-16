@@ -1,0 +1,47 @@
+.flexRow--footer__menu--mobile{
+    margin-top: 40px;
+}
+
+.flexRowContent--mobile__aboutsection--title{
+    border-top: 1px solid #e7e7e7;
+    padding: 15px 0 15px 26px;
+}
+
+.flexRow--mobile__aboutsection--images{
+    width: fit-content;
+}
+
+.flexRowContent--mobile__aboutsection--images{
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.flexRowContent--mobile__aboutsection--titles{
+    display: flex;
+    background: #e7e7e7;
+}
+
+.flexRowContent--mobile__aboutsection--titles .stretchChildrenWidth{
+    width: 340px;
+    height: 27px;
+}
+
+.flexRow--footer__mobile--termsofuse{
+    display: flex;
+    text-align: center;
+}
+
+.flexRow--footer__mobile--paymentmethods{
+    display: flex;
+    padding: 30px 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.flexRow--footer__mobile--lastsection{
+    padding: 20px;
+}
+
+
+

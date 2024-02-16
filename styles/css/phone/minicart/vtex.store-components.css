@@ -1,0 +1,7 @@
+.container{
+    display: flex;
+}
+
+.imageElement--minicart__empty--image{
+    margin-bottom: 24px;
+}

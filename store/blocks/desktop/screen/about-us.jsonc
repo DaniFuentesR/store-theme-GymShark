@@ -1,0 +1,127 @@
+{
+    "responsive-layout.desktop#about-us":{
+        "children":[
+            "flex-layout.row#desktop__about-us"
+        ]
+    },
+
+
+    "flex-layout.row#desktop__about-us":{
+        "children":[
+            "flex-layout.col#desktop__about-us"
+        ],
+
+        "props": {
+            "blockClass": "desktop__about-us--mainContainer"
+        }
+    },
+
+    "flex-layout.col#desktop__about-us":{
+        "children":[
+            "flex-layout.row#desktop__firstSection--about-us",
+            "flex-layout.row#desktop__secondSection--about-us",
+            "flex-layout.row#desktop__thirdSection--about-us"
+        ],
+
+        "props": {
+            "blockClass": "desktop__about-us--colContainer"
+        }
+    },
+
+
+    "flex-layout.row#desktop__firstSection--about-us":{
+        "children":[
+            "rich-text#firstBodyText__about-us",
+            "image#desktop__mainImage--about-us"
+        ],
+
+        "props": {
+            "blockClass": "desktop__about-us--firstSection"
+        }
+    },
+
+    "flex-layout.row#desktop__secondSection--about-us":{
+        "children":[
+            "image#desktop__secondImage--about-us",
+            "rich-text#secondBodyText"
+        ],
+
+        "props": {
+            "blockClass": "desktop__about-us--secondSection"
+        }
+    },
+
+    "flex-layout.row#desktop__thirdSection--about-us":{
+        "children":[
+            "rich-text#thirdBodyText",
+            "image#desktop__thirdImage--about-us"
+        ],
+
+        "props": {
+            "blockClass": "desktop__about-us--thirdSection"
+        }
+    },
+
+    "rich-text#firstBodyText__about-us":{
+        "props":{
+            "text": " ### ABOUT US \n\nWe're Gymshark. We exist to unite the conditioning* community. \n\nIt's not our goals that unite us, but the things we do to achieve them. Because although our training grounds and end goals might be different, sweat is our sport. And we're a team of individuals who know that to go further, we go together. \n\nOur legacy began in 2012, from a garage in Birmingham, UK with nothing but a sewing machine, a screen-printer and ambitions we had no right to hold. Today, we create the tools that help everyone become their personal best: the clothing you'll sweat in, the content you'll find inspiration in and the community you'll become your best in. \n\nOur Gymshark family of employees, athletes and followers is now over 10 million strong, with a total social media following of over 18 million and customers in over 230 countries across our 14 online stores. Our employee family is growing too, with over 900 employees across offices in five regions, including Solihull, UK (just outside our hometown) and Denver, Colorado. \n\n __*Conditioning is everything we do today to prepare for tomorrow.__ \n\nGymshark is led by:\n\n * __Ben Francis__ - Founder & Chief Executive Officer  \n\n * __Laurent Madelaine__ - Chief Supply Chain Officer \n\n * __Mat Dunn__ - Chief Financial Officer  \n\n * __Noel Mack__ - Chief Brand Officer  \n\n * __John Douglas__ - Chief Technology Officer ",
+
+            "blockClass": "firstBodyText__about-us"
+            
+        }
+    },
+
+    "image#desktop__mainImage--about-us":{
+        "title": "Main aboutUs Image",
+        "props": {
+        "blockClass": "phone__about-us--image",
+        "src":"https://images.ctfassets.net/wl6q2in9o7k3/7nxfqnFtXyRdrmNDEVetTG/51a348398665e409953e6c5e2d078241/about-1.webp?w=2048&q=85&fm=webp",
+        "fullWidth": false
+        }
+    },
+
+
+    // -------------- SECTION 2 ABOUT US ------------------------------------
+
+
+    "image#desktop__secondImage--about-us":{
+        "title": "Second aboutUs Image",
+        "props": {
+        "blockClass": "desktop__about-us--image",
+        "src":"https://images.ctfassets.net/wl6q2in9o7k3/Hw3vt4m5hnbi8b0ZH5JKt/3b14a7d90d44995d2078980b25dbf567/about-2_1920x.webp?w=1664&q=85&fm=webp"
+        }
+    },
+
+
+    "rich-text#secondBodyText":{
+        "props":{
+            "text": " ### OUR CORE VALUES \n\nOur values are invaluable. We lose them, we lose everything. \n\n##### __Be human.__ \n\nBeing accessible, inclusive and humble is at Gymshark's heart. \n\n##### __Give a shit.__ \n\nThat means being conscious of the world we live in, caring for those around us and being proactive to create positive change. \n\n##### __Do the right thing.__ \n\nCount on us to be honest, trustworthy and genuine. \n\n##### __Find the Gymshark way.__ \n\nRefuse to forget the garage mentality that made us: ambitious, agile, disruptive. \n\n##### __Put family first__ \n\nUnconditionally.",
+    
+            "blockClass": "secondBodyText__about-us"
+        }
+    },
+
+// -------------- SECTION 3 ABOUT US ------------------------------------
+
+    "image#desktop__thirdImage--about-us":{
+        "title": "Third aboutUs Image",
+        "props": {
+        "blockClass": "desktop__about-us--image",
+        "src":"https://images.ctfassets.net/wl6q2in9o7k3/1QjivMLHeyLfxMvuSqienU/21773e54d56541afd502b5ba26a6ee59/about-follow_1920x.webp?w=1664&q=85&fm=webp"
+        }
+    },
+
+
+
+    "rich-text#thirdBodyText":{
+        "props":{
+            "text": " ### GET IN TOUCH \n\n ###### For media and press enquiries please email: \n\n__press@gymshark.com__ \n\n ###### For general business enquiries please email:  \n\n__corporate@gymshark.com__ \n\n ###### For all customer service enquiries please click here: [__Contact us__](https://support.gymshark.com/en-US)",
+
+            "blockClass": "thirdBodyText__about-us"
+        }
+    }
+
+
+}
+
+
