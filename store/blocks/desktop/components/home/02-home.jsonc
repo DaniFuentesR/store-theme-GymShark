@@ -2,8 +2,9 @@
     "flex-layout.row#desktop__home__section-2--info":{
         "title": "Home Section two desktop, info div",
         "children": [
-            "rich-text#desktop__home__section2--info",
-            "link#desktop__home__viewall--sectiontwo"
+
+            "flex-layout.col#desktop__section2--text",
+            "flex-layout.col#desktop__home__section-2"
 
         ],
 
@@ -13,10 +14,22 @@
         }
     },
 
+    "flex-layout.col#desktop__section2--text":{
+        "children":[
+            "rich-text#desktop__home__section2--info",
+            "link#desktop__home__viewall--sectiontwo"
+        ],
+
+        "props":{
+            "blockClass": "desktop__section2--colinfo"
+        }
+    },
 
 
 
-    "flex-layout.row#desktop__home__section-2":{
+
+
+    "flex-layout.col#desktop__home__section-2":{
         "title": "Home Section two, scroll products",
         "children": [
             "shelf#desktop__summaryProducts--home"

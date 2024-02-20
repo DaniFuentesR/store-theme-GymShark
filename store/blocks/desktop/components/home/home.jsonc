@@ -3,39 +3,87 @@
   "flex-layout.row#desktop-home__section-1": {
     "title": "Image section 1",
     "children": [
-      "image#image__section-1--desktop"
+      "flex-layout.row#desktop--home--image",
+      "flex-layout.row#desktop--home--text"
+      // "flex-layout.row#desktop--home--buttons"
+
+
     ],
     "props": {
-      "blockClass": "home__image--section1--desktop",
+      "blockClass": "desktop-home__section-1",
       "fullWidth": true
       
     }
   },
 
-  "flex-layout.row#desktop__home__section1-text":{
-    "title": "text inside image section 1",
-    "children": [
-      "rich-text#1-info__image--home--desktop",
-      "rich-text#2-info__image--home--desktop"
-      
+  "flex-layout.row#desktop--home--image":{
+    "children":[
+      "image#image__section-1--desktop"
+
     ],
+
     "props": {
-      "blockClass": "home__image--text--desktop"
+      "blockClass": "desktop--home--image-section1",
+      "fullWidth": true
+      
     }
   },
 
-  "flex-layout.row#desktop__home__section1-buttons":{
-    "title": "butons main image",
+  "flex-layout.row#desktop--home--text":{
+    "children":[
+      "rich-text#1-info__image--home--desktop",
+      "rich-text#2-info__image--home--desktop",
+      "flex-layout.col#info--image__buttons"
+    ],
+
+    "props": {
+      "blockClass": "desktop--home--text-section1",
+      "fullWidth": true
+      
+    }
+  },
+
+  "flex-layout.col#info--image__buttons":{
     "children":[
       "link#image__button--shopwomen--desktop",
       "link#image__button--shopmen--desktop"
     ],
 
     "props": {
-      "blockClass": "desktop__home--section01--buttons"
+      "blockClass": "desktop--home--buttons-section1",
+      "fullWidth": true
+      
     }
-
   },
+
+
+
+
+
+  // "flex-layout.row#desktop__home__section1-text":{
+  //   "title": "text inside image section 1",
+  //   "children": [
+  //     "rich-text#1-info__image--home--desktop",
+  //     "rich-text#2-info__image--home--desktop"
+      
+  //   ],
+  //   "props": {
+  //     "blockClass": "home__image--text--desktop"
+  //   }
+  // },
+
+  // "flex-layout.row#desktop__home__section1-buttons":{
+  //   "title": "butons main image",
+  //   "children":[
+  //     "link#image__button--shopwomen--desktop",
+  //     "link#image__button--shopmen--desktop"
+  //   ],
+
+  //   "props": {
+  //     "blockClass": "desktop__home--section01--buttons"
+  //   }
+
+  // },
 
 
   // BLOCKS STATEMENTS
@@ -46,7 +94,7 @@
     "title": "Main Home Image desktop",
     "props": {
       "blockClass": "home__mainimage--desktop",
-      "src":"https://images.ctfassets.net/wl6q2in9o7k3/1CiHFQ1OKay92cMp61I2Pp/d4e3ed7e5df3c2b0a879cb2e886bbc0e/Headless_Desktop_-_D_copy.jpg?w=2048&q=100&fm=webp"
+      "src":"https://images.ctfassets.net/wl6q2in9o7k3/36ipk8Jl62Iv1cdjQI04tb/863ea56e1e8a6dd2faa3c2a21b7cc74d/3840x1140.jpg?w=3840&q=85&fm=webp"
     }
   },
 

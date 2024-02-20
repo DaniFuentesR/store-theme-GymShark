@@ -2,9 +2,11 @@
     "header-layout.desktop": {
         "children": [
             "header-row#desktop__header--top",
-            "header-row#desktop__header--bottom",
-            "icon#home__orders--icon"
-        ]
+            "header-row#desktop__header--bottom"
+        ],
+        "props":{
+            "blockClass": "desktop__header--container"
+        }
     }
 
 }

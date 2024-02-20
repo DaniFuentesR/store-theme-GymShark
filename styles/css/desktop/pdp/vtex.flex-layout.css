@@ -1,0 +1,49 @@
+.flexRowContent--desktop__product--info{
+    margin: 0 7.5rem;
+    padding: 2rem 3.1rem 3.1rem;
+    width: 90%;
+    gap: 3rem;
+}
+
+.flexRowContent--desktop__product--info .stretchChildrenWidth{
+    width: 65% !important;
+}
+
+.flexRowContent--desktop__product--infoCol .stretchChildrenWidth{
+    width: 100%;
+}
+
+.flexRowContent--desktop__product--infoColImage .stretchChildrenWidth{
+    width: 100% !important;
+}
+
+.flexRowContent--desktop__product--data{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--desktop__product--data .stretchChildrenWidth{
+    width: 50% !important;
+}
+
+.flexRowContent--desktop__product--data .stretchChildrenWidth{
+    width: 100% !important;
+}
+
+.flexRowContent--phone__product--button{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--desktop__product--reviews{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--desktop__product--reviews .stretchChildrenWidth{
+    width: 100% !important;
+}
+
+.flexRowContent--desktop__product--image .stretchChildrenWidth{
+    width: 100% !important;
+}

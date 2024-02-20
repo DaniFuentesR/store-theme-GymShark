@@ -13,8 +13,8 @@
 
     "flex-layout.row#desktop__home__section-5--images":{
         "children":[
-            "image#desktop__image1--section-5",
-            "image#desktop__image2--section-5"
+            "flex-layout.col#desktop__image1--section5",
+            "flex-layout.col#desktop__image2--section5"
           ],
   
           "props":{
@@ -23,31 +23,25 @@
           } 
     },
 
-    "flex-layout.row#desktop__home__section5-text1":{
-        "children": [
-
+    "flex-layout.col#desktop__image1--section5":{
+        "children":[
+            "image#desktop__image1--section-5",
             "rich-text#desktop__title1__image--section5",
             "rich-text#desktop__text1__image--section5",
             "link#desktop__image__button1--download"
-        ],
-        "props":{
-            "blockClass":"desktop__home__text1--section5"
-        }
+        ]
     },
 
-
-    "flex-layout.row#desktop__home__section5-text2":{
-        "children": [
-
+    "flex-layout.col#desktop__image2--section5":{
+        "children":[
+            "image#desktop__image2--section-5",
             "rich-text#desktop__title2__image--section5",
             "rich-text#desktop__text2__image--section5",
             "link#desktop__image__button2--download"
 
-        ],
-        "props":{
-            "blockClass":"desktop__home__text2--section5"
-        }
+        ]
     },
+
 
 
 

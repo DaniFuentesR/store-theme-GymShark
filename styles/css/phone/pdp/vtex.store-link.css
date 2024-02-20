@@ -1,0 +1,11 @@
+.buttonLink--product__wishlist--button{
+        background: #E7E7E7;
+        border-color: #E7E7E7;
+        border-radius: 2.3rem;
+}
+
+.label--product__wishlist--button{
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: black;
+}

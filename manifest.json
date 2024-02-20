@@ -50,7 +50,9 @@
     "vtex.modal-layout": "0.x",
     "vtex.store-icons": "0.x",
     "vtex.product-list": "0.x",
-    "vtex.checkout-summary": "0.x"
+    "vtex.checkout-summary": "0.x",
+    "itglobers.whatsapp-button": "0.x",
+    "itglobers.bullets-diagramation": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

@@ -2,21 +2,14 @@
   "responsive-layout.desktop#home__section-1": {
     "title": "Home Section 1 Desktop",
     "children": [
-      "flex-layout.row#desktop-home__section-1",
-      "flex-layout.row#desktop__home__section1-text",
-      "flex-layout.row#desktop__home__section1-buttons"
-
-
+      "flex-layout.row#desktop-home__section-1"
     ]
   },
 
   "responsive-layout.desktop#home__section-2": {
     "title": "Home Section 2 Desktop",
     "children":[
-      "flex-layout.row#desktop__home__section-2--info",
-       "flex-layout.row#desktop__home__section-2"
-      
-      
+      "flex-layout.row#desktop__home__section-2--info"    
     ]
   },
 
@@ -42,9 +35,9 @@
     "title": "Home Section 5 Desktop",
     "children": [
       "flex-layout.row#desktop__home__section5-title",
-      "flex-layout.row#desktop__home__section-5--images",
-      "flex-layout.row#desktop__home__section5-text1",
-      "flex-layout.row#desktop__home__section5-text2"
+      "flex-layout.row#desktop__home__section-5--images"
+      // "flex-layout.row#desktop__home__section5-text1",
+      // "flex-layout.row#desktop__home__section5-text2"
     ]
   },
 

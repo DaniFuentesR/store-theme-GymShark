@@ -15,8 +15,7 @@
 
         "props":{
             "blockClass": "header__top--desktop",
-            "horizontalAlign": "left",
-            "verticalAlign": "center"
+            "fullWidth": true
 
         }
     },
@@ -79,7 +78,9 @@
         ],
 
         "props":{
-            "blockClass":"header__bottom--desktop"
+            "blockClass":"header__bottom--desktop",
+            "fullWidth": true
+
         }
     },
 

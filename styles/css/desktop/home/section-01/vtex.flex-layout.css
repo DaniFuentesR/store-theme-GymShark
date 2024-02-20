@@ -1,0 +1,36 @@
+.flexRowContent--desktop-home__section-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--desktop-home__section-1 .stretchChildrenWidth{
+    width: 100% !important;
+}
+
+.flexRowContent--desktop--home--image-section1 .stretchChildrenWidth{
+    width: 100% !important;
+}
+
+.flexRowContent--desktop--home--text-section1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 20rem;
+    margin-left: 2rem;
+    width: 50%;
+}
+
+.flexRowContent--desktop--home--text-section1 .stretchChildrenWidth{
+    width: 50% !important;
+}
+
+.flexCol--desktop--home--buttons-section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+}
+
+.flexRow--desktop--home--text-section1{
+    height: 0;
+}

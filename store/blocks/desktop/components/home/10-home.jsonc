@@ -1,0 +1,42 @@
+{
+    "responsive-layout.desktop#home__section-10":{
+        "children":[
+            "list-context.bullet-group"
+        ]
+    },
+
+    "list-context.bullet-group":{
+        "props":{
+
+            "bullets": [
+                {
+                    "image": "https://cdn.shopify.com/s/files/1/0156/6146/files/CropMeshTank-GSPlumBrown-B7A4K-NBZN_acd89141-c30b-4949-9496-e346887b8d35_3840x.jpg?v=1701441737",
+                    "titleBullet": "SHOP WOMEN",
+                    "link": {
+                        "url": "https://ca.gymshark.com/pages/shop-women"
+                    } 
+                },
+
+                {
+                    "image": "https://cdn.shopify.com/s/files/1/0098/8822/files/PowerT-Shirt-LightGreyCoreMarl-A4A9Q-GBCN-0437_8c47bf43-64d6-4c6c-a611-ef1f889bb8f3.jpg?v=1690107815",
+                    "titleBullet": "SHOP MEN",
+                    "link": {
+                        "url": "https://ca.gymshark.com/pages/shop-men"
+                    } 
+                },
+
+                {
+                    "image": "https://cdn.shopify.com/s/files/1/1367/5201/products/1LWaterBottleBlack-I2A6T-BBBB20_3840x.jpg?v=1673514742",
+                    "titleBullet": "SHOP ACCESORIES",
+                    "link": {
+                        "url": "https://ca.gymshark.com/collections/accessories"
+                    } 
+                }
+            ]
+        }
+    }
+
+
+
+
+}

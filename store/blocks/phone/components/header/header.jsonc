@@ -22,7 +22,7 @@
     "header-row#header__mobile" :{
         "children": [
             "drawer#header__mobile--menu",
-            "search-bar",
+            "drawer#header__mobile--search",
             "header-spacer",
             "login",
             "minicart.v2",
@@ -57,18 +57,43 @@
        }
     },
 
-    "icon-search":{
-        "props":{
-            "blockClass": "mobile__header--search--icon"
-        }
+    "drawer#header__mobile--search":{
+        "children": [
+            "modal-trigger#header__mobile--search"
+
+           ],
+    
+           "props": {
+            "blockClass": "heder__mobile--search"
+           }
     },
 
-    // "search-bar":{
-    //     "props": {
 
-    //         "icon-search"
-    //     }
-    // },
+    "modal-trigger#header__mobile--search":{
+        "children":[
+            
+            "modal-layout#header__mobile--search"
+        ]
+    },
+
+
+    "modal-layout#header__mobile--search":{
+        "children":[
+            "search-bar"
+        ]
+    },
+
+    "search-bar":{
+        "props":{
+            "maxWidth": 250,
+            "placeholder": "Search for a Product",
+            "hasIconLeft": false
+            
+         }
+    },
+
+
+
 
 
     "logo#header__logo--mobile":{

@@ -1,0 +1,100 @@
+{
+    "responsive-layout.desktop#desktop__pdp":{
+        "children":[
+            "flex-layout.row#desktop__product--info",
+            "flex-layout.row#desktop__product--reviews"
+
+        ],
+
+        "props":{
+            "blockClass": "desktop__pdp"
+        }
+    },
+
+    "flex-layout.row#desktop__product--info":{
+        "children":[
+            "flex-layout.col#desktop__product--infoColImage",
+            "flex-layout.col#desktop__product--infoColData"
+
+        ],
+
+        "props":{
+            "blockClass": "desktop__product--info"
+        }
+    },
+
+    "flex-layout.col#desktop__product--infoColImage":{
+        "children":[
+            "flex-layout.row#desktop__product--image"
+        ],
+
+        "props":{
+            "blockClass": "desktop__product--infoColImage"
+        }
+    },
+
+    "flex-layout.col#desktop__product--infoColData":{
+        "children":[
+            "flex-layout.row#desktop__product--data"
+        ],
+
+        "props":{
+            "blockClass": "desktop__product--infoColData"
+        }
+    },
+
+
+
+
+    "flex-layout.row#desktop__product--data":{
+        "title": "Información general de PDP",
+        "children":[
+            "flex-layout.col#phone__product--rating",
+            "flex-layout.col#phone__product--skuSelector",
+            "flex-layout.row#phone__product--button",
+            "flex-layout.row#product--deliveryInfo__title",
+            "flex-layout.col#phone__product--deliveryInfo",
+            "flex-layout.col#phone__product--description",
+            "flex-layout.col#phone__product--returns",
+            "flex-layout.col#phone__product--share"
+        ],
+
+        "props":{
+            "blockClass": "desktop__product--data"
+        }
+    },
+
+    "flex-layout.row#desktop__product--reviews":{
+        "children":[
+            "rich-text#product__reviews--title",
+            "product-rating-inline#phone__rating--reviews",
+            "product-reviews"
+        ],
+
+        "props":{
+            "blockClass": "desktop__product--reviews"
+        }
+    },
+
+    "flex-layout.row#desktop__product--image":{
+        "title": "Imagenes de Producto",
+        "children":[
+            "product-images"
+        ],
+
+        "props":{
+            "blockClass": "desktop__product--image"
+        }
+    }
+
+    
+
+
+
+
+
+
+
+
+
+}

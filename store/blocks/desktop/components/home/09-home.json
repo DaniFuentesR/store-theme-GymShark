@@ -1,0 +1,17 @@
+{
+
+    "responsive-layout.desktop#home__section-9":{
+        "children":[
+            "whatsapp-button"
+        ]
+    },
+
+    "whatsapp-button":{
+        "props":{
+            "logo": "https://static.vecteezy.com/system/resources/thumbnails/021/495/946/small/whatsapp-logo-icon-free-png.png",
+            "phone": "7777777",
+            "message": "VTEX GYMSHARK"
+        }
+    }
+
+}

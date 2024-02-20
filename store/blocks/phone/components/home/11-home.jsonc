@@ -1,0 +1,10 @@
+{
+    "responsive-layout.mobile#home__section-11":{
+        "children":[
+            "list-context.bullet-group"
+         
+
+        ]
+    }
+
+}

@@ -1,20 +1,24 @@
 {
     "responsive-layout.phone#phone__pdp":{
         "children": [
-            "flex-layout.row#phone__product--info"
+            "flex-layout.row#phone__product--image",
+            "flex-layout.row#phone__product--info",
+            "flex-layout.row#phone__product--reviews",
+            "flex-layout.row#phone__product--related"
         ]
     },
 
     "flex-layout.row#phone__product--info":{
         "title": "Información general de PDP",
         "children":[
-            "flex-layout.col#phone__product--image",
-            "flex-layout.col#phone__product--data",
-            "flex-layout.row#phone__product--rating",
+            "flex-layout.col#phone__product--rating",
             "flex-layout.col#phone__product--skuSelector",
             "flex-layout.row#phone__product--button",
-            "flex-layout.col#phone__product--description"
-            // "shelf#relatedProducts"
+            "flex-layout.row#product--deliveryInfo__title",
+            "flex-layout.col#phone__product--deliveryInfo",
+            "flex-layout.col#phone__product--description",
+            "flex-layout.col#phone__product--returns",
+            "flex-layout.col#phone__product--share"
         ],
 
         "props":{
@@ -22,7 +26,22 @@
         }
     },
 
-    "flex-layout.col#phone__product--image":{
+    //CONTAINERS STATEMENTS
+    
+    "flex-layout.row#phone__product--reviews":{
+        "children":[
+            "flex-layout.col#phone__product--reviews"
+        ]
+    },
+
+    "flex-layout.row#phone__product--related":{
+        "children":[
+
+        ]
+    },
+
+
+    "flex-layout.row#phone__product--image":{
         "title": "Imagenes de Producto",
         "children":[
             "product-images"
@@ -35,24 +54,13 @@
 
     "product-images":{
         "props":{
-            "displayThumbnailsArrows": false,
+            "contentType": "all",
+            "showNavigationArrows": true,
+            "displayMode": "carousel",
             "blockClass": "phone__imageProduct"
         }
     },
 
-
-    "flex-layout.col#phone__product--data":{
-        "title": "Data del producto",
-        "children":[
-            "vtex.store-components:product-name",
-            "vtex.store-components:product-brand",
-            "product-price"
-        ],
-
-        "props":{
-            "blockClass": "phone__product--data"
-        }
-    },
 
     "product-price":{
       "props":{
@@ -60,21 +68,18 @@
       }  
     },
 
-
-
-    "flex-layout.row#phone__product--rating":{
+    "flex-layout.col#phone__product--rating":{
         "children":[
             "product-rating-inline",
-            "add-to-list-btn",
-            "share"
-
+            "vtex.store-components:product-name",
+            "vtex.store-components:product-brand",
+            "product-price"
         ],
 
         "props":{
             "blockClass": "phone__product--rating"
         }
     },
-
    
 
 
@@ -92,7 +97,8 @@
 
     "flex-layout.row#phone__product--button":{
         "children":[
-            "add-to-cart-button"
+            "add-to-cart-button",
+            "link#wishList__product--button"
         ],
 
         "props":{
@@ -106,13 +112,137 @@
         }
     },
 
+    "link#wishList__product--button":{
+        "title": "product detail wish list button",
+            "props":{
+                "blockClass":"product__wishlist--button",
+                "href": "https://ca.gymshark.com/cart",
+                "label": "ADD TO WISH LIST",
+                "displayMode":"button"
+
+            }
+    },
+
+
+
+    "flex-layout.col#phone__product--deliveryInfo":{
+        "children":[
+            "flex-layout.col#product--deliveryInfo__container1",
+            "flex-layout.col#product--deliveryInfo__container2",
+            "flex-layout.col#product--deliveryInfo__container3"
+        ],
+
+        "props":{
+
+            "blockClass": "phone__product--deliveryInfo"
+        }
+        
+
+    },
+
+    "flex-layout.row#product--deliveryInfo__title":{
+        "children":[
+            "rich-text#product__deliveryInfo--title"
+
+        ]
+    },
+
+
+    "rich-text#product__deliveryInfo--title":{
+        "props":{
+            "text": "#### DELIVERED TO YOUR DOOR.",
+            "blockClass": "product__deliveryInfo--title"
+        }
+    },
+
+    "flex-layout.col#product--deliveryInfo__container1":{
+        "children":[
+            "icon#deliveryInfo--icon1",
+            "rich-text#deliveryInfo--text"
+        ],
+
+        "props":{
+            "blockClass": "product--deliveryInfo__container"
+        }
+    },
+
+    "icon#deliveryInfo--icon1":{
+        "props":{
+            "id": "return-arrow",
+            "size": "40",
+            "blockClass": "deliveryInfo--icon"
+        }
+    },
+
+    "rich-text#deliveryInfo--text":{
+        "props":{
+            "text": "Free 30-Day Return Policy! Excluding Final Sale Items",
+            "blockClass": "deliveryInfo--text"
+        }
+    },
+
+
+    "flex-layout.col#product--deliveryInfo__container2":{
+        "children":[
+            "icon#deliveryInfo--icon2",
+            "rich-text#deliveryInfo--text2"
+        ],
+
+        "props":{
+            "blockClass": "product--deliveryInfo__container"
+        }
+    },
+
+    "icon#deliveryInfo--icon2":{
+        "props":{
+            "id": "box-shipping",
+            "size": "40",
+            "blockClass": "deliveryInfo--icon"
+
+        }
+    },
+
+    "rich-text#deliveryInfo--text2":{
+        "props":{
+            "text": "Free Standard Shipping Over $100",
+            "blockClass": "deliveryInfo--text"
+
+        }
+    },
+
+    "flex-layout.col#product--deliveryInfo__container3":{
+        "children":[
+            "icon#deliveryInfo--icon3",
+            "rich-text#deliveryInfo--text3"
+        ],
+
+        "props":{
+            "blockClass": "product--deliveryInfo__container"
+        }
+    },
+
+    "icon#deliveryInfo--icon3":{
+        "props":{
+            "id": "delivery-truck",
+            "size": "40",
+            "blockClass": "deliveryInfo--icon"
+
+        }
+    },
+
+    "rich-text#deliveryInfo--text3":{
+        "props":{
+            "text": "Express Shipping Available",
+            "blockClass": "deliveryInfo--text"
+
+        }
+    },
+
 
 
     "flex-layout.col#phone__product--description":{
         "children":[
-        "modal-trigger#phone__product--description",
-        "modal-trigger#phone__product--returns"
-
+            "menu#phone__product--description"
         ],
 
         "props":{
@@ -120,60 +250,105 @@
         }
     },
 
-    "modal-trigger#phone__product--description":{
+    "flex-layout.col#phone__product--returns":{
         "children":[
-            "rich-text#phone__product--description",
-            "modal-layout#phone__product--description"
-
+            "menu#phone__product--returns"
         ],
 
         "props":{
-            "blockClass": "product--description--modal"
+            "blockClass": "phone__product--returns"
         }
     },
 
-    "modal-trigger#phone__product--returns":{
+
+    "menu#phone__product--description":{
         "children":[
-
-            "rich-text#phone__product--returns",
-            "modal-layout#phone__product--returns"
-
-        ]
-    },
-
-   
-
-    "rich-text#phone__product--description":{
+            "menu-item#product__description"
+        ],
         "props":{
-            "text": "DESCRIPTION",
-            "textAlignment": "LEFT",
-            "blockClass": "phone__product--description"
+            "blockClass": "product--descritpion"
         }
     },
 
-    "modal-layout#phone__product--description":{
+
+    "menu#phone__product--returns":{
         "children":[
-            "modal-header",
+            "menu-item#product__returns"
+        ],
+
+        "props":{
+
+            "blockClass": "product--returns"
+        }
+    },
+
+
+    "menu-item#product__description":{
+        "props": {
+            "id": "product-descritpion",
+            "itemProps":{
+                "id":"product-descritpion",
+                "tagTitle":"product description",
+                "text": "DESCRIPTION",
+                "blockClass": "phone__product--description"
+
+            }
+       },
+
+       "blocks":["submenu.accordion#product__descritption"]
+    },
+
+
+    "menu-item#product__returns":{
+        "props": {
+            "id": "product-returns",
+            "blockClass": "phone__product--returns",
+            
+            "itemProps":{
+                "id":"product-returns",
+                "tagTitle":"product returns",
+                "text": "DELIVERY & RETURNS",
+                "blockClass": "phone__product--returns"
+            }
+       },
+
+       "blocks":["submenu.accordion#product__returns"]
+    },
+
+
+    "submenu.accordion#product__descritption":{
+        "children":[
             "product-description"
         ],
+
         "props":{
-            "blockClass": "description--modal--container"
+            "blockClass": "phone__product--description--menu"
         }
     },
 
-    "modal-header#description":{
+    "submenu.accordion#product__returns":{
         "children":[
-            "rich-text#modal__header--text"
-        ]
-    },
+            "shipping-simulator"
+        ],
 
-    "rich-text#modal__header--text":{
         "props":{
-            "text": "DESCRIPTION",
-            "textAlignment": "CENTER",
-            "blockClass": "modal__header--text"
+            "blockClass": "phone__product--returns--menu"
         }
     },
+
+
+
+
+
+
+
+
+
+
+
+  
+
+   
 
 
 
@@ -209,7 +384,116 @@
             "textAlignment": "CENTER",
             "blockClass": "modal__header--text"
         }
+    },
+
+
+    "flex-layout.col#phone__product--reviews":{
+        "children":[
+            "rich-text#product__reviews--title",
+            "product-rating-inline#phone__rating--reviews",
+            "product-reviews"
+            
+        ]
+    },
+
+    "product-rating-inline#phone__rating--reviews":{
+        "props":{
+            "blockClass": "phone__rating--reviews"
+        }
+    },
+
+
+    "rich-text#product__reviews--title":{
+        "props":{
+            "text": "#### COMMUNITY FEEDBACK",
+            "textAlignment": "CENTER",
+            "blockClass": "product__reviews--title"
+        }
+
+    },
+
+    "flex-layout.col#phone__product--share":{
+        "children":[
+            "flex-layout.row#phone__share--products"
+        ]
+    },
+
+    "flex-layout.row#phone__share--products":{
+        "children":[
+            "modal-trigger#phone__product--share"
+        ],
+
+        "props":{
+
+            "blockClass": "phone__share--products"
+        }
+
+    },
+
+    "modal-trigger#phone__product--share":{
+        "children":[
+            "icon#share__product--icon",
+            "rich-text#share__product--text",
+            "modal-layout#phone__product--share"
+        ],
+
+        "props": {
+            "blockClass": "phone__product--shareTrigger"
+        }
+
+    },
+
+    "modal-layout#phone__product--share":{
+        "children":[
+            "rich-text#modal__share--text",
+            "share"
+        ],
+
+        "props":{
+            "blockClass": "phone__share--products-modal"
+
+        }
+    },
+
+
+    "icon#share__product--icon":{
+        "props":{
+            "id": "share",
+            "size": "20",
+            "blockClass": "share--icon"
+
+        }
+    },
+
+    "rich-text#share__product--text":{
+        "props":{
+            "text": "SHARE",
+            "blockClass": "share__product--text"
+
+        }
+    },
+
+    "rich-text#modal__share--text":{
+        "props":{
+           "text": "##### SHARE VIA",
+           "blockClass": "modal__share--text"
+        }
     }
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
 
 
     

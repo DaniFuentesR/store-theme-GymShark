@@ -1,0 +1,37 @@
+.bullet__item--image{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 100px;
+}
+
+.bullet__mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.bullet__container{
+    margin: 2rem 0;
+}
+
+.bullet__item--title{
+    font-weight: 900;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.bullet__item--link{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 640px){
+    .bullet__mainContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f6f6f6;
+    }
+}

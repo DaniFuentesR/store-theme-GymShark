@@ -5,10 +5,18 @@
     font-weight: bolder;
 }
 
+.productBrandName{
+    color: grey;
+}
+
 .sellingPriceValue{
-    font-size: small;
+    font-size: 1rem;
     font-weight: bold;
-    font-family: "helvetica";
+    
+}
+
+.skuSelectorContainer{
+    padding-top: 1.5rem;
 }
 
 .skuSelectorSubcontainer--color{
@@ -23,12 +31,12 @@
 }
 
 .skuSelectorSubcontainer--color .skuSelectorTextContainer{
-    text-align: center;
+    text-align: start;
 }
 
 .skuSelectorSubcontainer--color .skuSelectorOptionsList{
     display: flex;
-    justify-content: center;
+    justify-content: start;
 
 }
 
@@ -37,22 +45,15 @@
     width: 100%;
 }
 
-.skuSelectorSubcontainer--talla .skuSelectorOptionsList{
 
-    display: flex;
-    justify-content: center;
-    padding: 1rem 1rem;
-    border: 1px solid #e7e7e7e7;
-    border-radius: 0.2rem;
-}
-
-.skuSelectorSubcontainer--talla .skuSelectorTextContainer{
-    padding-left: 1rem;
-}
 
 .frameAround{
-    border-color: black;
     border-radius: 0.2rem;
+    border: 1px solid black;
+}
+
+.skuSelectorOptionsList{
+    gap: 0.4rem;
 }
 
 .skuSelectorInternalBox{
@@ -61,10 +62,46 @@
 }
 
 .skuSelectorSubcontainer--talla .skuSelectorName{
-    font-size: 0.7rem;
-    font-family: "helvetica";
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: black;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorItem{
+    height: 1.6rem;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorItemTextValue{
+    padding: 1.5rem;
 }
 
 .skuSelectorSubcontainer--color .skuSelectorItemImage{
     height: 3rem;
+}
+
+.productDescriptionContainer{
+    margin: 1.5rem;
+}
+
+.productDescriptionTitle{
+    color: white;
+    width: 0;
+    height: 0;
+}
+
+.productImagesGallerySwiperContainer{
+    overflow: scroll;
+}
+
+.shareLabel{
+    color: #EBEBEB;
+}
+
+.shareButtons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.shareContainer{
+    margin-bottom: 1rem;
 }

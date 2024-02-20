@@ -1,6 +1,10 @@
-.headerRowContentContainer--header__top--desktop{
-    background-color: #ebebeb;
-    height: 40px;
+.headerRowBackground--header__top--desktop{
+    background: #e7e7e7;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
 }
 
 

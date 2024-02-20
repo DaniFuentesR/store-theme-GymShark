@@ -1,0 +1,25 @@
+.flexRowContent--desktop__home__section2--info{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCol--desktop__section2--colinfo{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColChild--desktop__section2--colinfo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.flexRowContent--desktop__home__section2--info{
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.flexRowContent--desktop__home__section2--info .stretchChildrenWidth{
+    width: 100% !important;
+}

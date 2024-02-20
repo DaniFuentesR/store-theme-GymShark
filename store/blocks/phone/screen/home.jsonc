@@ -88,7 +88,13 @@
       "flex-layout.row#home__section9--info",
       "flex-layout.row#home__section-9--link"
     ]
-  }
+  },
+
+  "responsive-layout.mobile#home__section-10":{
+    "children":[
+        "whatsapp-button"
+    ]
+}
 
 
 

@@ -1,0 +1,42 @@
+.styledLinkContent{
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: black;
+    font-family: "helvetica";
+}
+
+.submenuAccordion--phone__product--description--menu{
+    height: fit-content;
+    overflow: scroll;
+
+}
+
+.styledLinkContent{
+    width: 100%;
+}
+
+.accordionIcon--isClosed{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.accordionIcon--isOpen{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 200;
+    
+}
+
+.styledLinkContainer{
+    margin-left: 1rem;
+}
+
+.menuItem--phone__product--returns--isClosed{
+    width: 100%;
+}
+
+.menuItem--phone__product--returns--isOpen{
+    width: 100%;
+}
+

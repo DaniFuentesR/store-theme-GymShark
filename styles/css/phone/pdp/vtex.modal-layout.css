@@ -1,0 +1,30 @@
+.closeButtonContainer{
+    width: 0;
+    position: relative;
+    left: 5rem;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triggerContainer--phone__product--shareTrigger{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    justify-content: center;
+}
+
+.paper--phone__share--products-modal{
+    width: 100%;
+}
+
+.paperScrollContent{
+    margin: 0;
+}
+
+.paper--phone__share--products-modal{
+    background: #EBEBEB;
+}

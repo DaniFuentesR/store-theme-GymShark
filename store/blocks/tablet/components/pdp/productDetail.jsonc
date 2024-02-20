@@ -1,0 +1,9 @@
+{
+    "responsive-layout.tablet#tablet__pdp":{
+        "children":[
+            "flex-layout.row#desktop__product--info",
+            "flex-layout.row#desktop__product--reviews"
+        ]
+    }
+    
+}
